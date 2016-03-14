@@ -7,11 +7,9 @@
 
 # Site settings
 title: Tsundere-Eddy Blog
-email: dereddyteddy@gmail.com
 description: Eddy geht Nüsse
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://der-eddy.github.io/" # the base hostname & protocol for your site
-twitter_username: DerEddyTeddy
 github_username:  Der-Eddy
 
 # Build settings

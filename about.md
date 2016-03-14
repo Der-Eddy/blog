@@ -4,4 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Hier stehen Sachen über mich
+*Nach § 5 Telemediengesetz*  
+Eduard Nikoleisen  
+Nürnbergerstraße 14  
+93155 Hemau  
+dereddyteddy@gmail.com
