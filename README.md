@@ -1,1 +1,1 @@
-Take a look at https://der-eddy.github.io/blog/
+Mein auf GitHub gehosteter Blog welcher [jekyll](https://jekyllrb.com/ nutzt: https://blog.eddydev.de/
