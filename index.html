@@ -6,11 +6,18 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-    <li>
-        <span class="post-meta">{{ post.date | date: "%d. %b %Y" }}</span>
-        <h2><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h2>
-        {{ post.excerpt }}
-    </li>
+    <div class="ui one column grid">
+        <div class="column">
+          <div class="ui raised segment">
+            <a class="ui orange ribbon label">{{ post.category }}</a>
+            <span>{{ post.date | date: "%d. %b %Y" }}</span>
+            <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+            {{ post.excerpt }}
+            <br>
+            <div class="ui bottom attached label">Tags: {{ post.tags }}</div>
+          </div>
+        </div>
+    </div>
     {% endfor %}
   </ul>
 
