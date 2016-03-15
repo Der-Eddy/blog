@@ -18,6 +18,7 @@ layout: default
     {% for post in site.posts %}
     <div class="ui one column grid">
         <div class="column">
+          {% if post.choosen %}<a class="ui pointing below red label">Vom Autor ausgewählter Artikel</a>{% endif %}
           <div class="ui raised segment">
             <a class="ui orange ribbon label">{{ post.category }}</a>
             <span><time>{{ post.date | date: "%d. %b %Y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</span>
