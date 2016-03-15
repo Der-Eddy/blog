@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/">~# {{ site.title }} <span id="cursor">_</span></a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -25,3 +25,13 @@
   </div>
 
 </header>
+<script>
+    function cursorAnimation() {
+                $('#cursor').animate({
+                    opacity: 0
+                }, 'slow', 'swing').animate({
+                    opacity: 1
+                }, 'slow', 'swing');
+            }
+    setInterval ('cursorAnimation()', 600);
+</script>
