@@ -5,6 +5,7 @@ layout: default
 
   <div class="ui one column grid">
       <div class="column">
+        {% if page.choosen %}<a class="ui pointing below red label">Vom Autor ausgewählter Artikel</a>{% endif %}
         <div class="ui raised segment">
           <header class="post-header">
             <a class="ui orange ribbon label">{{ page.category }}</a>
