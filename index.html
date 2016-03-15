@@ -20,9 +20,9 @@ layout: default
         <div class="column">
           <div class="ui raised segment">
             <a class="ui orange ribbon label">{{ post.category }}</a>
-            <span>{{ post.date | date: "%d. %b %Y" }}</span>
+            <span><time>{{ post.date | date: "%d. %b %Y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</span>
             <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-            {{ post.excerpt }}
+            {{ post.content }}
             <br>
             <div class="ui bottom attached label">Tags: {{ post.tags }}</div>
           </div>
