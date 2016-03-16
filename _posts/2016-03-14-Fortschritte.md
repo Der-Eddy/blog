@@ -2,7 +2,7 @@
 layout: post
 title:  "Fortschritte"
 date:   2016-03-14 20:43:54 +0100
-category: info
+category: Info
 tags: info, css
 author: Der-Eddy
 ---
