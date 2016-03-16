@@ -6,26 +6,23 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+          <h4 class="ui header">About</h4>
+          <div class="ui link list">
+              <a href="http://steamcommunity.com/id/der-eddy/" class="item"><i class="steam square icon"></i> Der-Eddy</a>
+              <a href="https://github.com/Der-Eddy/" class="item"><i class="github icon"></i> Der-Eddy</a>
+              <a href="https://github.com/Der-Eddy/blog" class="item"><i class="github square icon"></i> Github Repository</a>
+              <a href="https://www.elitepvpers.com" class="item"><i class="external icon"></i> Elitepvpers</a>
+          </div>
       </div>
 
       <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
+          <h4 class="ui header">Made with</h4>
+          <div class="ui link list">
+              <a href="http://semantic-ui.com/" class="item"><i class="css3 icon"></i> Semantic-UI</a>
+              <a href="https://jekyllrb.com/" class="item"><i class="html5 icon"></i> jekyll</a>
+              <a href="http://jquery.com/" class="item"><i class="code icon"></i> jQuery</a>
+              <a href="https://www.cloudflare.com/" class="item"><i class="soundcloud icon"></i> Cloudflare</a>
+          </div>
       </div>
 
       <div class="footer-col footer-col-3">
