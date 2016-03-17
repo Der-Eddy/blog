@@ -22,4 +22,4 @@ Der **Kick** ist eine Mechanik um einen Gegner wortwörtlich zu kicken um ihn en
 Eine **Plunge Attack** ist ein Angriff von oben, welche man bereits gegen die Tutorial Boss bildlich gezeigt bekommt, man sollte sofern man die Möglichkeit diese nutzen um mehr Schaden auszuteilen.
 
 Angehängt ist ein 2 Minütiger Kampf gegen Havel welcher ohne gezielte Backstabs mindestens 5 mal so lange dauern würde während er einen selber mit nur 1 bis 2 Schlägen umhaut.  
-Und nicht vergessen: Das sterben in Dark Souls gehört zum Aufbau eures Charakters dazu! Nach dem Tod habt ihr immer die Möglichkeit eure verlorenen Seelen und Menschlichkeit wieder zu erlangen.
+Und nicht vergessen: Das sterben in Dark Souls gehört zum Aufbau eures Charakters dazu! Nach dem Tod habt ihr immer noch die Möglichkeit eure verlorenen Seelen und Menschlichkeit wieder zu erlangen.
