@@ -17,8 +17,11 @@ Heute möchte ich ein wenig über erweiterte Kampfmechaniken reden die nützlich
 <script>$('.ui.embed').embed();</script><br>
 
 Die wichtigste Mechanik hierbei ist eindeutig der **Backstab**, es gibt nur wenige Gegner (vor allem Bosse) die immun gegen einen solchen Angriff sind und verteilt erhöhten Schaden während der Gegner kurze Zeit außer Gefecht gesetzt wird. Um einen Backstab korrekt auszuführen muss man sich hinter einem Gegner befinden und nicht sein Schild hochhalten und dann normal angreifen. Backstabs sollte jeder Anfänger üben um Gegner schnell und effizient ausschalten zu können.  
-Der **Pary** oder **Riposte** gehört dagegen zu den komplexeren Mechaniken, man wehrt über eine präzise L2 / LT Bewegung einen gegnerischen Angriff ab und kontert diesen fatal. Das Zeitfenster für einen Parry ist sehr gering und erfordert viel Übung, lohnt sich jedoch gegen härtere Gegner wie auch menschliche PvP Invader. Anzumerken sei das einige Boss Angriffe nicht pariert werden können!
+
+Der **Pary** oder **Riposte** gehört dagegen zu den komplexeren Mechaniken, man wehrt über eine präzise L2 / LT Bewegung einen gegnerischen Angriff ab und kontert diesen fatal. Das Zeitfenster für einen Parry ist sehr gering und erfordert viel Übung, lohnt sich jedoch gegen härtere Gegner wie auch menschliche PvP Invader. Anzumerken sei das einige Boss Angriffe nicht pariert werden können!  
+
 Der **Kick** ist eine Mechanik um einen Gegner wortwörtlich zu kicken um ihn entweder nach hinten zu schleudern (Eine Klippe hinunter) oder um ihm sein Schild weg zu stoßen. Besonders gegen die Schild-Speerkämpfer (Da man Schild und Speer und gleichzeitig nutzen kann) ist diese Technik nützlich. Diesen Angriff können auch einige Gegner anwenden um dir das Schild weg zu stoßen! Um den Kick auszuführen muss man gleichzeitig kurz nach vorne drücken wie auch die normale Angriffstaste (R1 / RB), Erfahrungsgemäß benötigen Anfänger ein wenig Übung bis sie diesen Angriff auf Anhieb ausführen können.  
+
 Eine **Plunge Attack** ist ein Angriff von oben, welche man bereits gegen die Tutorial Boss bildlich gezeigt bekommt, man sollte sofern man die Möglichkeit diese nutzen um mehr Schaden auszuteilen.
 
 Angehängt ist ein 2 Minütiger Kampf gegen Havel welcher ohne gezielte Backstabs mindestens 5 mal so lange dauern würde während er einen selber mit nur 1 bis 2 Schlägen umhaut.  
