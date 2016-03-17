@@ -1,0 +1,21 @@
+---
+layout: page
+title: Updates
+permalink: /updates/
+---
+<table class="ui striped table">
+  <tbody id="updates">
+  </tbody>
+</table>
+
+<script>
+$.getJSON( "https://api.github.com/repos/Der-Eddy/blog/commits", function( data ) {
+    data.forEach( function(commit){
+        $("#updates").append('<tr>' +
+              '<td class="collapsing"><img src="' + commit.author.avatar_url + '" width="36" height="36"></td>' +
+              '<td><b>' + commit.commit.message + '</b><br>' +
+                '<span><a href="' + commit.author.html_url + '">' + commit.author.login + '</a> committed ' + commit.commit.committer.date + '</span>' +
+              '</td><td class="right aligned"><a href="' + commit.html_url + '"><button class="ui blue basic fluid button">' + commit.sha.substring(0, 6) + '</button></a></td></tr>');
+        });
+}).error(function() { alert(); });
+</script>
