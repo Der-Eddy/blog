@@ -34,7 +34,7 @@ Mein erster Eindruck von [Atom](https://atom.io/) war: "Sieht ja nett aus, aber 
 4,984 Packages (3836 Plugins & 1148 Themes)  
 *[Quelle Plugins](https://atom.io/packages), [Quelle Themes](https://atom.io/themes)*
 
-Damit überholt Atom bereits Sublime Text an Vielfalt in Packages, dies ist wahrscheinlich dem einfachen Aufbau geschuldet der besonders an Web Development angelehnt ist. Jedes namhafte Plugin gibt es auch als Nachbau für Atom, auch z.B. das [SFTP Plugin](https://wbond.net/sublime_packages/sftp) welches 30$ kostet gibt als [Open-Source Variante](https://atom.io/packages/remote-edit).
+Damit überholt Atom bereits Sublime Text an Vielfalt in Packages, dies ist wahrscheinlich dem einfachen Aufbau geschuldet der besonders an Web Development angelehnt ist. Jedes namhafte Plugin gibt es auch als Nachbau für Atom, auch z.B. das [SFTP Plugin](https://wbond.net/sublime_packages/sftp) welches 30$ kostet gibt es als [Open-Source Variante](https://atom.io/packages/remote-edit).
 Zum heutigen Zeitpunkt (21. März 2016) haben an Atom 285 Entwickler mit gearbeitet ([Quelle](https://github.com/atom/atom/graphs/contributors)), davon auch mehrere Vollzeit Entwickler von GitHub und halten damit den Editor schnell Up-to-date, größere Bugs werden im Beta Channel abgefangen bevor sie die große Masse erreichen. Manko an Atom ist jedoch dadurch das der Editor nicht so stark Low-Level programmiert wurde wie Sublime Text (C++ und Python) sondern in HTML, JavaScript, CSS, und Node.js, spürt man oft das der Editor ein wenig träge ist und auch etwas länger zum starten braucht. Mit jedem Update wird dies jedoch verbessert und Atom bekommt regelmäßiger einen neuen Release im Vergleich zu Sublime Text.
 
 <h3>Zusammenfassung</h3>

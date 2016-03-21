@@ -22,3 +22,6 @@ Der Javascript Code vom Cursor ist mit JQuery übrigens schnell eingetragen:
     setInterval ('cursorAnimation()', 600);
 </script>
 {% endhighlight %}
+
+**Nachtrag:**  
+Man kann dies natürlich auch in reinem CSS erreichen, jedoch sind diese Konstrukte wenn man einen flüssigeren Übergang haben möchte zielich groß und wenn ich schon JQuery in die Seite einbinde, warum nicht auch einfacher?
