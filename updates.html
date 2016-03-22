@@ -3,7 +3,7 @@ layout: page
 title: Updates
 permalink: /updates/
 ---
-<script src="{{ "{{ site.github.url }}/css/jquery-dateFormat.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "{{ site.github.url }}/js/jquery-dateFormat.min.js" | prepend: site.baseurl }}"></script>
 
 <table class="ui table">
   <tbody id="updates">
@@ -19,5 +19,5 @@ $.getJSON( "https://api.github.com/repos/Der-Eddy/blog/commits", function( data 
                 '<span><a href="' + commit.author.html_url + '" target="_blank">' + commit.author.login + '</a> committed ' + $.format.prettyDate(commit.commit.committer.date) + '</span>' +
               '</td><td class="right aligned"><a href="' + commit.html_url + '"><button class="ui blue basic fluid button">' + commit.sha.substring(0, 7) + '</button></a></td></tr>');
         });
-}).error(function() { alert(); });
+}).error(function() { alert("GitHub API down?"); });
 </script>
