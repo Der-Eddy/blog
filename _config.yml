@@ -14,3 +14,6 @@ github_username:  Der-Eddy
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-feed
