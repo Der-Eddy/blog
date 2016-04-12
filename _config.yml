@@ -10,6 +10,7 @@ title: Tsundere-Eddy Blog
 description: In diesem Blog behandle ich alle Themen die mir so durch den Kopf gehen, egal ob Schimpftiraden, Programmier Fails, Spiele oder süße Anime Mädchen. Rechtschreib- und Grammatikfehler inklusive.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.eddydev.de/" # the base hostname & protocol for your site
+logo: /img/StrichHalb.png
 github_username:  Der-Eddy
 
 # Build settings
@@ -17,3 +18,5 @@ markdown: kramdown
 
 gems:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

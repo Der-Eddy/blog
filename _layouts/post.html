@@ -1,42 +1,50 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
   <div class="ui one column grid">
-      <div class="column">
-        {% if page.choosen %}<a class="ui pointing below red label">Vom Autor ausgewählter Artikel</a>{% endif %}
-        <div class="ui raised segment">
-          <header class="post-header">
-            <a class="ui orange ribbon label">{{ page.category }}</a>
-            <span><time>
-                {% assign m = page.date | date: "%-m" %}
-                {{ page.date | date: "%-d" }}.
-                {% case m %}
-                  {% when '1' %}Januar
-                  {% when '2' %}Februar
-                  {% when '3' %}M&auml;rz
-                  {% when '4' %}April
-                  {% when '5' %}Mai
-                  {% when '6' %}Juni
-                  {% when '7' %}Juli
-                  {% when '8' %}August
-                  {% when '9' %}September
-                  {% when '10' %}Oktober
-                  {% when '11' %}November
-                  {% when '12' %}Dezember
-                {% endcase %}
-                {{ page.date | date: "%Y" }}
-            </time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</span>
-            <a class="post-link" href="{{ post.url }}">{{ page.title }}</a>
-          </header>
-          <div class="post-content" itemprop="articleBody">
-            {{ page.content }}
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+          <div class="column">
+            {% if page.choosen %}<a class="ui pointing below red label">Vom Autor ausgewählter Artikel</a>{% endif %}
+            <div class="ui raised segment">
+              <header class="post-header">
+                <a class="ui orange ribbon label">{{ page.category }}</a>
+                <span><time>
+                    {% assign m = page.date | date: "%-m" %}
+                    {{ page.date | date: "%-d" }}.
+                    {% case m %}
+                      {% when '1' %}Januar
+                      {% when '2' %}Februar
+                      {% when '3' %}M&auml;rz
+                      {% when '4' %}April
+                      {% when '5' %}Mai
+                      {% when '6' %}Juni
+                      {% when '7' %}Juli
+                      {% when '8' %}August
+                      {% when '9' %}September
+                      {% when '10' %}Oktober
+                      {% when '11' %}November
+                      {% when '12' %}Dezember
+                    {% endcase %}
+                    {{ page.date | date: "%Y" }}
+                </time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</span>
+                <a class="post-link" href="{{ post.url }}">{{ page.title }}</a>
+              </header>
+              <div class="post-content" itemprop="articleBody">
+                {{ page.content }}
+              </div>
+              <br>
+              <div class="ui bottom attached label">Tags: {{ page.tags }}</div>
+            </div>
           </div>
-          <br>
-          <div class="ui bottom attached label">Tags: {{ page.tags }}</div>
-        </div>
+      </article>
+      <div class="column">
+          <div class="ui raised segment">
+              <div class="ui top attached label">Verwandte Artikel:</div>
+              {% for post in site.related_posts limit:3 %}
+                  <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+              {% endfor %}
+          </div>
       </div>
   </div>
 
-</article>
+<br><p class="rss-subscribe">Abonnieren mit <a href="{{ "/feed.xml" | prepend: site.baseurl }}">Atom/RSS</a></p>
