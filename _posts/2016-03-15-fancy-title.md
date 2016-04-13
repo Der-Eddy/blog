@@ -2,8 +2,8 @@
 layout: post
 title:  "Fancy Title"
 date:   2016-03-15 15:03:00 +0100
-category: Info
-tags: info, js
+category: Blog
+tags: info, js, blog
 author: Der-Eddy
 ---
 Ich hab nun den Titel ein wenig aufgepept, nun mit ein wenig Terminal Flair und einem blinkenden Cursor.
