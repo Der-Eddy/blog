@@ -12,6 +12,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.eddydev.de/" # the base hostname & protocol for your site
 logo: /img/StrichHalb.png
 github_username:  Der-Eddy
+exclude: [node_modules/, semantic/]
 
 # Build settings
 markdown: kramdown

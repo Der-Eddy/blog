@@ -5,6 +5,7 @@ date:   2016-04-13 15:15:54 +0100
 category: Rant
 tags: rant, windows
 author: Der-Eddy
+keyword: xp
 ---
 Dieser Blog Eintrag entstehet nachdem ich einige Diskussionen die letzten Tage über Windows Upgrades in Foren und Reddit gelesen haben. Inzwischen jährt sich das Support Ende von Windows XP einem Jahr. Jedoch gibt es bis heute immer noch aktive Windows XP Nutzer, sowie Nutzer die Windows Updates ablehnen weil das ihren PC ja "vollmüllen" würde.
 
@@ -20,3 +21,5 @@ Es werden mit jedem Tag neue Exploits in der Windows Architektur gefunden, neuer
 
 *Wie schütze ich mich vor einem Angriff?*  
 Ich würde hier einfach spontan die Empfehlung aussprechen auf ein neueres Betriebssystem umzusteigen. Wer die neueren Windows Versionen nicht mag kann auch mal das kostenlose [Ubuntu](http://www.ubuntu.com/) unverbindlich ausprobieren, welches mit jedem Tag mehr Akzeptanz findet. Ubuntu gibt es jedoch auch gebündelt mit anderen GUI Oberflächen wie z.B. KDE welches wohl am nächsten an eine Windows XP Oberfläche kommt, das ganze nennt sich dann [Kubuntu](https://www.kubuntu.org/). Hat man einen alten und langsamen Computer kann man durch eine leichtgewichtige GUI Umgebung wie auch einige bereits gebündelte Tweaks noch mal ein wenig Performance raus kitzeln, [Lubuntu](http://lubuntu.net/) (LXDE Oberfläche) sowie [Xubuntu](http://xubuntu.org/) (Xfce Oberfläche) bieten so was an.
+
+Oder könnt ihr euch noch an [WinNuke](https://en.wikipedia.org/wiki/WinNuke) erinnern?

@@ -203,7 +203,7 @@
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+    //margin-bottom: $spacing-unit;
 }
 
 .post-title {
@@ -271,4 +271,8 @@ p {
 
 a.post-link {
     line-height: 130%;
+}
+
+.ui.feed > .event > .label > .icon, .ui.feed > .event > .label > img {
+    background-color: white!important;
 }
