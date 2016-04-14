@@ -14,3 +14,6 @@ Es ist nämlich eine Feedline der Commits für den Artikel den man gerade liest,
 Also eigentlich eine Auflistung wann der Artikel bearbeitet wurde.
 
 Die Umsetzung von dieser ist derzeit noch relativ hässlich und ich werde mir vielleicht noch was besseres einfallen lassen. Wie ich das umgesetzt hat findet man im Commit [e0bcaaaa](https://github.com/Der-Eddy/blog/commit/e0bcaaaaf596a9bebd8ed8cfa5c1dc8dc2a27876) auf GitHub.
+
+*Ergänzung:*
+Nur um es in diesen Eintrag zu zeigen, habe ich einfach noch Text in einem zweiten Commit hinzugefügt.
