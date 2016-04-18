@@ -1,74 +1,94 @@
 ---
 layout: default
 ---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="ui one column grid">
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-          <div class="column">
-            {% if page.choosen %}<a class="ui pointing below red label">Vom Autor ausgewählter Artikel</a>{% endif %}
-            <div class="ui raised segment">
-              <header class="post-header">
-                <a class="ui orange ribbon label">{{ page.category }}</a>
-                <span><time>
-                    {% assign m = page.date | date: "%-m" %}
-                    {{ page.date | date: "%-d" }}.
-                    {% case m %}
-                      {% when '1' %}Januar
-                      {% when '2' %}Februar
-                      {% when '3' %}M&auml;rz
-                      {% when '4' %}April
-                      {% when '5' %}Mai
-                      {% when '6' %}Juni
-                      {% when '7' %}Juli
-                      {% when '8' %}August
-                      {% when '9' %}September
-                      {% when '10' %}Oktober
-                      {% when '11' %}November
-                      {% when '12' %}Dezember
-                    {% endcase %}
-                    {{ page.date | date: "%Y" }}
-                </time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</span>
-                <a class="post-link" href="{{ post.url }}">{{ page.title }}</a>
-              </header>
-              <div class="post-content" itemprop="articleBody">
-                {{ page.content }}
-              </div>
-              <br>
-              <div class="ui bottom attached label">Tags: {{ page.tags }}</div>
-            </div>
-          </div>
-      </article>
-
-      <div class="ui feed">
+    <div class="column">
+      {% if page.choosen %}
+      <a class="ui pointing below red label">Vom Autor ausgewählter Artikel
+      </a>{% endif %}
+      <div class="ui raised segment">
+        <header class="post-header">
+          <a class="ui orange ribbon label">{{ page.category }}
+          </a>
+          <span>
+            <time>
+              {% assign m = page.date | date: "%-m" %}
+              {{ page.date | date: "%-d" }}.
+              {% case m %}
+              {% when '1' %}Januar
+              {% when '2' %}Februar
+              {% when '3' %}M&auml;rz
+              {% when '4' %}April
+              {% when '5' %}Mai
+              {% when '6' %}Juni
+              {% when '7' %}Juli
+              {% when '8' %}August
+              {% when '9' %}September
+              {% when '10' %}Oktober
+              {% when '11' %}November
+              {% when '12' %}Dezember
+              {% endcase %}
+              {{ page.date | date: "%Y" }}
+            </time>{% if page.author %} •
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <span itemprop="name">{{ page.author }}
+              </span>
+            </span>{% endif %}
+          </span>
+          <a class="post-link" href="{{ post.url }}">{{ page.title }}
+          </a>
+        </header>
+        <div class="post-content" itemprop="articleBody">
+          {{ page.content }}
+        </div>
+        <br>
+        <div class="ui bottom attached label">Tags: {{ page.tags }}
+        </div>
       </div>
-
-      <div class="column">
-          <div class="ui raised segment">
-              <div class="ui top attached label">Letzte Artikel:</div>
-              {% for post in site.related_posts limit:3 %}
-                  <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-              {% endfor %}
-          </div>
-      </div>
+    </div>
   </div>
-
-<br><p class="rss-subscribe">Abonnieren über <a href="{{ "/feed.xml" | prepend: site.baseurl }}">Atom/RSS</a></p>
-
+</article>
+<div class="ui one column grid">
+  <div class="ui feed">
+  </div>
+  <div class="column">
+    <div class="ui raised segment">
+      <div class="ui top attached label">Letzte Artikel:
+      </div>
+      {% for post in site.related_posts limit:3 %}
+      <p>
+        <a href="{{ post.url }}">{{ post.title }}
+        </a>
+      </p>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<br>
+<p class="rss-subscribe">Abonnieren über
+  <a href="{{ "/feed.xml" | prepend: site.baseurl }}">Atom/RSS
+  </a>
+</p>
 {% if page.keyword %}
-    <script src="{{ "{{ site.github.url }}/js/jquery-dateFormat.min.js" | prepend: site.baseurl }}"></script>
-
-    <script>
-    $.getJSON( "https://api.github.com/repos/Der-Eddy/blog/commits", function( data ) {
-        data.forEach( function(commit){
-            if (commit.commit.message.indexOf("{{ page.keyword }}") > 0){
-                $(".feed").append('<div class="event"><div class="label">' +
-                      '<img src="' + commit.author.avatar_url + '"></div>' +
-                      '<div class="content"><div class="summary"><a href="' + commit.author.html_url + '" target="_blank">' + commit.author.login + '</a>' +
-                      ' commited this at <a href="' + commit.html_url + '">' + commit.sha.substring(0, 7) + '</a>' +
-                      '<div class="date">' + $.format.prettyDate(commit.commit.committer.date) + '</div>' +
-                      '<div class="extra text">' + commit.commit.message + '</div>' +
-                      '</div></div></div>');
-            }
-        });
-    }).error(function() { alert("GitHub API down?"); });
-    </script>
+<script>
+  $.getJSON( "https://api.github.com/repos/Der-Eddy/blog/commits", function( data ) {
+    data.forEach( function(commit){
+      if (commit.commit.message.indexOf("{{ page.keyword }}") > 0){
+        $(".feed").append('<div class="event"><div class="label">' +
+                          '<img src="' + commit.author.avatar_url + '"></div>' +
+                          '<div class="content"><div class="summary"><a href="' + commit.author.html_url + '" target="_blank">' + commit.author.login + '</a>' +
+                          ' commited this at <a href="' + commit.html_url + '">' + commit.sha.substring(0, 7) + '</a>' +
+                          '<div class="date">' + $.format.prettyDate(commit.commit.committer.date) + '</div>' +
+                          '<div class="extra text">' + commit.commit.message + '</div>' +
+                          '</div></div></div>');
+      }
+    }
+                );
+  }
+           ).error(function() {
+    alert("GitHub API down?");
+  }
+                  );
+</script>
 {% endif %}

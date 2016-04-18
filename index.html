@@ -1,67 +1,84 @@
 ---
 layout: default
 ---
-
 <div class="home">
-
-  <ul class="post-list">
-      <div class="ui one column centered stackable grid container">
-      <div class="mobile only column" id="left">
-          <div class="ui info icon message">
-              <i class="mobile icon"></i>
-              <div class="content">
-                <p>Du besuchst gerade die mobile Oberfläche.</p>
-              </div>
-          </div>
-      </div>
-  </div>
-    <!---
-    <div class="ui info icon message">
-        <i class="info icon"></i>
+  <div class="ui one column centered stackable grid container">
+    <div class="mobile only column" id="left">
+      <div class="ui info icon message">
+        <i class="mobile icon">
+        </i>
         <div class="content">
-          <div class="header">
-            Warnung
-          </div>
-          <p>Dieser Blog ist im Aufbau!</p>
+          <p>Du besuchst gerade die mobile Oberfläche.
+          </p>
         </div>
-    --->
-  </div>
-
-    {% for post in site.posts %}
-    <div class="ui one column grid">
-        <div class="column">
-          {% if post.choosen %}<a class="ui pointing below red label">Vom Autor ausgewählter Artikel</a>{% endif %}
-          <div class="ui raised segment">
-            <a class="ui orange ribbon label">{{ post.category }}</a>
-            <span><time>
-                {% assign m = post.date | date: "%-m" %}
-                {{ post.date | date: "%-d" }}.
-                {% case m %}
-                  {% when '1' %}Januar
-                  {% when '2' %}Februar
-                  {% when '3' %}M&auml;rz
-                  {% when '4' %}April
-                  {% when '5' %}Mai
-                  {% when '6' %}Juni
-                  {% when '7' %}Juli
-                  {% when '8' %}August
-                  {% when '9' %}September
-                  {% when '10' %}Oktober
-                  {% when '11' %}November
-                  {% when '12' %}Dezember
-                {% endcase %}
-                {{ post.date | date: "%Y" }}
-            </time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</span>
-            <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-            {{ post.content }}
-            <br>
-            <div class="ui bottom attached label">Tags: {{ post.tags }}</div>
-          </div>
-        </div>
+      </div>
     </div>
-    {% endfor %}
-  </ul>
-  <br>
-  <p class="rss-subscribe">Abonnieren über <a href="{{ "/feed.xml" | prepend: site.baseurl }}">Atom/RSS</a></p>
-
+  </div>
+  <!---
+<div class="ui info icon message">
+<i class="info icon"></i>
+<div class="content">
+<div class="header">
+Warnung
+</div>
+<p>Dieser Blog ist im Aufbau!</p>
+</div>
+--->
+</div>
+<ul class="post-list">
+  {% for post in site.posts limit: 5 %}
+  <div class="ui one column grid">
+    <div class="column">
+      {% if post.choosen %}
+      <a class="ui pointing below red label">Vom Autor ausgewählter Artikel
+      </a>{% endif %}
+      <div class="ui raised segment">
+        <a class="ui orange ribbon label">{{ post.category }}
+        </a>
+        <span>
+          <time>
+            {% assign m = post.date | date: "%-m" %}
+            {{ post.date | date: "%-d" }}.
+            {% case m %}
+            {% when '1' %}Januar
+            {% when '2' %}Februar
+            {% when '3' %}M&auml;rz
+            {% when '4' %}April
+            {% when '5' %}Mai
+            {% when '6' %}Juni
+            {% when '7' %}Juli
+            {% when '8' %}August
+            {% when '9' %}September
+            {% when '10' %}Oktober
+            {% when '11' %}November
+            {% when '12' %}Dezember
+            {% endcase %}
+            {{ post.date | date: "%Y" }}
+          </time>{% if post.author %} •
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">{{ post.author }}
+            </span>
+          </span>{% endif %}
+        </span>
+        <a class="post-link" href="{{ post.url }}">{{ post.title }}
+        </a>
+        <div class="post">
+          {{ post.content }}
+        </div>
+        <br>
+        <div class="ui bottom attached label">Tags: {{ post.tags }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</ul>
+<br>
+<div class="infinite-spinner">
+</div>
+<br>
+<p class="rss-subscribe">Abonnieren über
+  <a href="{{ "/feed.xml" | prepend: site.baseurl }}">Atom/RSS
+  </a>
+</p>
 </div>
