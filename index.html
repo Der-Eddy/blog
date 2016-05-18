@@ -28,6 +28,20 @@ Warnung
 </div>
 <ul class="post-list">
   {% for post in site.posts limit: 5 %}
+  {% assign num_words = post.content | strip_html | number_of_words %}
+  {% assign minutes_f = num_words | divided_by: 150.0 %}
+  {% assign minutes_i = num_words | divided_by: 150 %}
+  {% assign diff = minutes_f | minus: minutes_i %}
+  {% if diff >= 0.5 %}
+      {% assign minutes = minutes_i + 1 %}
+  {% else %}
+      {% assign minutes = minutes_i %}
+  {% endif %}
+  {% if minutes <= 1 %}
+      {% assign reading_time = '1' | append: ' Minute' %}
+  {% else %}
+      {% assign reading_time = minutes | append: ' Minuten' %}
+  {% endif %}
   <div class="ui one column grid">
     <div class="column">
       {% if post.choosen %}
@@ -55,10 +69,15 @@ Warnung
             {% when '12' %}Dezember
             {% endcase %}
             {{ post.date | date: "%Y" }}
-          </time>{% if post.author %} •
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          </time>
+          {% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name">{{ post.author }}
             </span>
+          </span>{% endif %}
+          {% if reading_time %} • Etwa <span>
+            <span itemprop="name">{{ reading_time }}
+            </span>
+            Lesezeit
           </span>{% endif %}
         </span>
         <a class="post-link" href="{{ post.url }}">{{ post.title }}
