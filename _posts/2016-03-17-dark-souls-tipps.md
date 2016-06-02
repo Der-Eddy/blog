@@ -3,7 +3,7 @@ layout: post
 title:  "Dark Souls Anfänger Tipps"
 date:   2016-03-17 16:50:00 +0100
 category: Spiele
-tags: spiele, steam, dark souls, tipps
+tags: spiele steam dark_souls tipps
 author: Der-Eddy
 ---
 Dark Souls, eines der schwersten Spiele die ich in den letzten Jahren gespielt hatte. Als ich das erste mal "Dark Souls" gespielt habe, dachte ich nur: "Was? Wer spielt so was? Das ergibt alles keinen Sinn!" und schmeißte meinen Controller in die Ecke. Ein Glück das ich es einige Monate später noch mal versuchte. Nach insgesamt 200 Stunden Dark Souls I und Dark Souls II, muss ich jedoch sagen das es wirklich nützlich ist einem Anfänger kleine Tipps zu geben da das Spiel an wirklich jeder Ecke versucht einen für den kleinsten Fehler zu bestrafen.

@@ -3,7 +3,7 @@ layout: post
 title:  "Nutzloses Feature"
 date:   2016-04-14 19:55:54 +0100
 category: Blog
-tags: blog, info, javascript
+tags: blog info javascript
 author: Der-Eddy
 keyword: nutzFeature
 ---

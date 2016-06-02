@@ -3,7 +3,7 @@ layout: post
 title:  "Mein erster Game Jam"
 date:   2016-05-14 17:00:54 +0100
 category: Development
-tags: dev, spiele
+tags: dev spiele
 author: Der-Eddy
 keyword: rbcgj1
 ---

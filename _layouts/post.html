@@ -63,7 +63,7 @@ layout: default
           {{ page.content }}
         </div>
         <br>
-        <div class="ui bottom attached label">Tags: {{ page.tags }}
+        <div class="ui bottom attached label"><div id="tags">Tags:</div>{% for tag in page.tags %}<a class="ui orange label">{{ tag }}</a>{% endfor %}
         </div>
       </div>
     </div>

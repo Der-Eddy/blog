@@ -3,7 +3,7 @@ layout: post
 title:  "Atom vs. Sublime Text"
 date:   2016-03-21 15:00:54 +0100
 category: Development
-tags: dev, editor, ide
+tags: dev editor ide
 author: Der-Eddy
 ---
 Nachdem ich jetzt beide Editors länger getestet habe, möchte ich hiermit meine Erfahrungen nieder schreiben.

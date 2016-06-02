@@ -86,7 +86,7 @@ Warnung
           {{ post.content }}
         </div>
         <br>
-        <div class="ui bottom attached label">Tags: {{ post.tags }}
+        <div class="ui bottom attached label"><div id="tags">Tags:</div>{% for tag in post.tags %}<a class="ui orange label">{{ tag }}</a>{% endfor %}
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ layout: post
 title:  "YouTube Perlen | Fynn Kliemann"
 date:   2016-04-18 13:30:54 +0100
 category: YouTube
-tags: youtube, diy
+tags: youtube diy
 author: Der-Eddy
 keyword: kliemann
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "Windows XP"
 date:   2016-04-13 15:15:54 +0100
 category: Rant
-tags: rant, windows
+tags: rant windows sicherheitslücken
 author: Der-Eddy
 keyword: xp
 ---

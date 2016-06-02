@@ -3,7 +3,7 @@ layout: post
 title:  "Transparente Bilder mit JPG Kompression"
 date:   2016-03-23 20:20:54 +0100
 category: Development
-tags: dev, html, web
+tags: dev html web
 author: Der-Eddy
 choosen: true
 ---
