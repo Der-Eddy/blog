@@ -27,7 +27,7 @@ Warnung
 --->
 </div>
 <ul class="post-list">
-  {% for post in site.posts limit: 5 %}
+  {% for post in site.posts limit: 55 %}
   {% assign num_words = post.content | strip_html | number_of_words %}
   {% assign minutes_f = num_words | divided_by: 150.0 %}
   {% assign minutes_i = num_words | divided_by: 150 %}
