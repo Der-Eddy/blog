@@ -290,3 +290,11 @@ a.post-link {
 .post{
     margin-bottom: 2em;
 }
+
+.post p:first-child:first-letter  {
+  font-size: 3em;
+  text-transform: capitalize;
+  float: left;
+  color: $orange-color;
+  margin: 8px 5px 0 5px;
+}
