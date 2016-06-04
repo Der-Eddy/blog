@@ -292,9 +292,16 @@ a.post-link {
 }
 
 .post p:first-child:first-letter  {
-  font-size: 3em;
+  font-family: 'Lora', serif;
+  font-size: 3.5em;
   text-transform: capitalize;
   float: left;
   color: $orange-color;
-  margin: 8px 5px 0 5px;
+  margin: 0.15em 0.2em 0.3em 0.2em;
+  display: inline-block;
+  line-height: 0.7em;
+}
+
+.post p:nth-child(2) {
+    clear: both;
 }
