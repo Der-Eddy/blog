@@ -8,12 +8,12 @@ author: Der-Eddy
 ---
 Dark Souls, eines der schwersten Spiele die ich in den letzten Jahren gespielt hatte. Als ich das erste mal "Dark Souls" gespielt habe, dachte ich nur: "Was? Wer spielt so was? Das ergibt alles keinen Sinn!" und schmeißte meinen Controller in die Ecke. Ein Glück das ich es einige Monate später noch mal versuchte. Nach insgesamt 200 Stunden Dark Souls I und Dark Souls II, muss ich jedoch sagen das es wirklich nützlich ist einem Anfänger kleine Tipps zu geben da das Spiel an wirklich jeder Ecke versucht einen für den kleinsten Fehler zu bestrafen.
 
-![](https://i.imgur.com/rGBJAav.jpg)
+<img class="lazy" data-original="https://i.imgur.com/rGBJAav.jpg">
 
 Ein ausführliches Review kann man übrigens hier finden: [Klick](https://www.elitepvpers.com/forum/game-reviews/3843330-dark-souls.html)  
 Heute möchte ich ein wenig über erweiterte Kampfmechaniken reden die nützlich sind sofern man schon etwas weiter im Spiel ist. Tatsächlich besitzt Dark Souls eine Menge mehr Möglichkeiten außer dem stumpfen Angreifen von vorne um einen Gegner auszuschalten. Hierfür habe ich ein kurzes Video erstellt, aufgenommen kurz vor dem ersten Glockenturm wie auch im Darkroot Basin.
 
-<div class="ui embed" data-source="youtube" data-id="La9zA4tzZpg" data-placeholder="https://i.imgur.com/dyn7xO9.jpg"></div>
+<div class="ui embed" data-source="youtube" data-id="La9zA4tzZpg" data-placeholder="https://i.imgur.com/lUOn8m2.jpg"></div>
 <script>$('.ui.embed').embed();</script><br>
 
 Die wichtigste Mechanik hierbei ist eindeutig der **Backstab**, es gibt nur wenige Gegner (vor allem Bosse) die immun gegen einen solchen Angriff sind und verteilt erhöhten Schaden während der Gegner kurze Zeit außer Gefecht gesetzt wird. Um einen Backstab korrekt auszuführen muss man sich hinter einem Gegner befinden und nicht sein Schild hochhalten und dann normal angreifen. Backstabs sollte jeder Anfänger üben um Gegner schnell und effizient ausschalten zu können.  

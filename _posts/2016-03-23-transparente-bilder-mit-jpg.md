@@ -11,7 +11,7 @@ Heute bin ich über ein interessantes Thema gestolpert als ich auf [Reddit unter
 
 Damit das funktioniert muss man jedoch zum JPG noch eine Maske für SVG anlegen. [Eine einfache schwarz-weiß Interpretation reicht dafür aus, in meinem Fall ist sie nur 20 KB groß](https://i.imgur.com/xm3HnrO.jpg).
 
-<img src="https://i.imgur.com/S6dD1Xj.jpg" width="80%">
+<img class="lazy" data-original="https://i.imgur.com/S6dD1Xj.jpg" width="80%">
 
 Anschließend kommt alles in ein SVG HTML Konstrukt.
 

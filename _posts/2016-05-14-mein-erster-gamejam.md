@@ -14,20 +14,20 @@ Jedoch habe ich dafür fast eine Woche gebraucht und mich auch größtenteils an
 
 Ein Game Jam in 48 Stunden war dann schon was anderes, nicht nur das ein Thema vorgegeben wird, auch die Tatsache das ich erst mal alleine was auf die Beine stellen wollte. Vor allem habe ich mir meine Ziele zu hoch gestreckt, alleine das finden von ein paar coolen Sprites und die Anpassung an meine Engine dauerte mehrere Stunden in Photoshop und musste erst mal mit common pitfalls mich auseinandersetzen. Letztlich hab ich auch noch meinen ersten richtigen Sprite erstellt und eine absolute einfache Idle Animation daraus gebastelt.
 
-![screenshot](https://i.imgur.com/VyAZgUI.png)
+<img class="lazy" alt="screenshot" data-original="https://i.imgur.com/1uQBBgc.png">
 
 Ich war schon nach kurzer Zeit überrascht wie viel eigentlich hinter dem Gamemaker:&nbsp;Studio steckt und wie mächtig man die Scripting Language auslegen kann. Es ist per se nicht das beste für einen Anfänger und ich hatte große Probleme beim Umstieg von einer IDE rein für das programmieren zum Komplett Paket Gamemaker:&nbsp;Studio. Letztlich war es jedoch nicht so schlimm nach dem man erst mal den Ansatz verstanden hat.
 
-![Gamemaker: Studio](https://i.imgur.com/gCDBozG.png)
+<img class="lazy" alt="Gamemaker: Studio" data-original="https://i.imgur.com/xxVodkC.png">
 
 Am Ende des Game Jams musste ich jedoch feststellen das ich nicht nur viel zu müde war um noch produktiv zu arbeiten, noch das ich viel erreicht habe. Gerade mal 2 NPCs, bei denen ich effektiv fast den den selben Sprite verwendet habe, und die selbe simple Quest haben. Auch habe ich gerade noch so das Menü ordentliche hinbekommen, von dem jedoch die meisten Punkte gar nicht laufen. Auch die Kampf Animation sowie Gegner habe ich nicht mehr hinbekommen ohne das es ein komplettes Bugfest werden würde.
 
-![menu](https://i.imgur.com/GP71ykT.png)
+<img class="lazy" alt="menu" data-original="https://i.imgur.com/Ot5cDEr.png">
 
 Letztlich war es eine gute Erfahrung um mein Ziel nächstes mal kleiner zu stecken, auch mal selber Sprites zu erstellen und nicht alles alleine zu machen.  
 Das Spiel findet sich übrigens auf [Gamejolt](http://gamejolt.com/games/stranger/142756) und [GitHub](https://github.com/Der-Eddy/gamemaker-stranger).
 
 Ein Fazit zum gesamten Game Jam (Ganze 48 Spiele wurden eingereicht!) gibt es übrigens auch beim Kanal von RocketbeansTV:
 
-<div class="ui embed" data-source="youtube" data-id="QLiDiahcd64" data-placeholder="https://img.youtube.com/vi/QLiDiahcd64/maxresdefault.jpg"></div>
+<div class="ui embed" data-source="youtube" data-id="QLiDiahcd64" data-placeholder="https://i.imgur.com/xLYQxLD.jpg"></div>
 <script>$('.ui.embed').embed();</script><br>
