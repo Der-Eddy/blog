@@ -203,7 +203,7 @@
  * Posts
  */
 .post-header {
-    //margin-bottom: $spacing-unit;
+    margin-bottom: 5px;
 }
 
 .post-title {
@@ -291,7 +291,7 @@ a.post-link {
     margin-bottom: 2em;
 }
 
-.post p:first-child:first-letter  {
+.column .post-content p:first-child:first-letter  {
   font-family: 'Lora', serif;
   font-size: 3.5em;
   text-transform: capitalize;
@@ -302,6 +302,21 @@ a.post-link {
   line-height: 0.7em;
 }
 
-.post p:nth-child(2) {
+.column .post-content p:nth-child(2) {
+    clear: both;
+}
+
+.column .post p:first-child:first-letter  {
+  font-family: 'Lora', serif;
+  font-size: 3.5em;
+  text-transform: capitalize;
+  float: left;
+  color: $orange-color;
+  margin: 0.15em 0.2em 0.3em 0.2em;
+  display: inline-block;
+  line-height: 0.7em;
+}
+
+.column .post p:nth-child(2) {
     clear: both;
 }
