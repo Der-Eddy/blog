@@ -320,3 +320,42 @@ a.post-link {
 .column .post p:nth-child(2) {
     clear: both;
 }
+
+#cursor {
+  display: inline;
+  -webkit-animation: 1s blink ease infinite;
+  -moz-animation: 1s blink ease infinite;
+  -ms-animation: 1s blink ease infinite;
+  -o-animation: 1s blink ease infinite;
+  animation: 1s blink ease infinite;
+}
+
+@keyframes "blink" {
+  50% {
+    opacity: 0.0;
+  }
+}
+
+@-moz-keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  50% {
+    opacity: 0.0;
+  }
+}
+
+@-ms-keyframes "blink" {
+  50% {
+    opacity: 0.0;
+  }
+}
+
+@-o-keyframes "blink" {
+  50% {
+    opacity: 0.0;
+  }
+}
