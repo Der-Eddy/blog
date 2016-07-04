@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/dereddy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://blog.eddydev.de
+  * I am dereddy (https://keybase.io/dereddy) on keybase.
+  * I have a public key with fingerprint 837F E362 E500 25E3 CD39  22E6 3190 EF12 6848 9061
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01203489a953b93c45dd521d32f7a7f2fb284b11f1b788c53ab4ea79ab88362b8f820a",
+            "fingerprint": "837fe362e50025e3cd3922e63190ef1268489061",
+            "host": "keybase.io",
+            "key_id": "3190ef1268489061",
+            "kid": "0101ef4f3939c348303ae3b09aeb62caffbc0119b71b5b3b3baad067cb1db2962af90a",
+            "uid": "3679894ff8fbbe6e19f9bf1055d6fc19",
+            "username": "dereddy"
+        },
+        "service": {
+            "hostname": "blog.eddydev.de",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1467668294,
+    "expire_in": 157680000,
+    "prev": "a36044afd4da27a5ccc41e6d1d4cf4f27a68db91d26c24ba98108f08a260af43",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMNyAnicbVJtUFRVGF4EnGGHxD4YARs+VobBYvCe+31W0CAhcJhJB6GMj+Wce89d
+NmF33V2QjahVqmHQEpQi0UKgyJmaERwUk5HcEAsZoQGKbGR0coE0LD5Chxyte0n/
+dc6PM+d9n+d5n/ed9+IT/jq9H6j786nijDrkN+htKtO98sZ4eqUB22S3wVhp2EWW
+H1IiE6fLtMsiG4wGCtAUw4oQQY7BkJFYTpY5GsgMrQhIUGgF0yKLAVAAFkRR4hiE
+WYIEiLAoMjyNRUWkKWRIMCgWq5k47A6L1aXKioygEDVPOIqiOcJIMgNpmvAMgBRR
+AM2Lak2KByqx2ObUGKo5jJwk0WJTY+rHtGzvf/CPfVOAKKzCQAZKagMMxSDCYAoi
+gnlaQoqCJQoAiAWAOcyoFyGZ4gUJAxnTkKeRApd9l/1XhxegCFlFERWMCU8AVCBW
+AMVxMq9IAGpAJ3FYUSlR0TJxEFmdaVWCQQ2WWySizVVr5BEAl9jMiRpEJuWJMlHZ
+dofNZZNsJWqy2OWyO40a2eW2a+g9BJse6ZiwxSqrk1QZ5cThtNisBiNQkZLLogkD
+lhd4XqQhm2AgFXaLg5gsGoITeJFSj1aHlKuSiOEplkWKzMqIFhAnSRILCC8DmZXU
+qakhXpQxBDLNSzSLERQBJSqUiGieQgrLGLTOdlttqjat+kRmVdNpMVuRq8xBDFXf
+evMDdH563crAFdqK6fRBqx8vnmd+te705Ke+uWcDGraV1ATGnezKqWnyRG9vmGgU
+lnr6DnWP6VIGFNCVvX9FrP+T+s8qFg9kbvk4I6Rz484iRzCMCfmi/seM4bAL3p6a
+Zw5vdi/0V1Q2hk/7Uq/qf78Y8qBlZ9P8bEXuptmx4YTA5vj23OLxuz0PYU9HUvQf
+0acWJ8DPQyM3kzuO9mevXbk1LOlz70NhaMp9a/zgmaSbPq9pQ+Te9aktub72D7Kr
+z7Z4hgrz36/dkXM7/VjblbF1LubI/u7qxpAh3+ilv9CSyM60bZIbIvp01wbfNB4N
+LQp7p3nfb13T8Rs/+idqPO7D+ZPuQ9NfpX3y3g0xzb9+LuBaZri5pTC4Nu/eufxO
+kyXtm/rCpZnrI9zeqbn00g79xJbTjVHGJTqz+/BA4FQpOdb67uvXUXjd4Mts5Qvf
+ZbWPVZ31hPoH9xY0Ry+mRM40F63BDLw6QdvWRPUKI62TVcW3a+5uvn/pS257RO+O
+if1f36Fq4zx8K3ZzPxwveK5uFJ5I1720qmoyJutg3ky07fuMvj2rtk4lr51LGa7+
+qb+Tv1zk88bHdkYFeW+8FjfV6ZtLrTwfdKbfr0s8pV+4PJslZOvf0oU+bx44/ndY
+Tea2fSWj0HMlYiGSWI/kuQda7hwojLVn3LO9GNN07lbPhvODDxJ/OWEMTx4IX//2
+hXUFr+5O//Xptpyx+5mK41+r98Qk
+=Lg7C
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dereddy
+
+==================================================================
