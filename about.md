@@ -8,10 +8,12 @@ permalink: /about/
 Geltungsbereich
 
 Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den verantwortlichen Anbieter  
+
 Eduard Nikoleisen  
 Nürnbergerstraße 14  
 93155 Hemau  
-dereddyteddy@gmail.com  
+webmaster@eddy-dev.net  
+
 auf dieser Website (im folgenden “Angebot”) auf.  
 Die rechtlichen Grundlagen des Datenschutzes finden sich im Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG).  
 
