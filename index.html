@@ -36,7 +36,7 @@ layout: default
       {% if post.choosen %}
       <a class="ui pointing below red label">Vom Autor ausgewählter Artikel
       </a>{% endif %}
-      <div class="ui raised segment">
+      <div class="ui inverted raised segment">
         <a class="ui orange ribbon label">{{ post.category }}
         </a>
         <span>
@@ -75,7 +75,7 @@ layout: default
           {{ post.content }}
         </div>
         <br>
-        <div class="ui bottom attached label"><div id="tags">Tags:</div>{% for tag in post.tags %}<a class="ui orange label">{{ tag }}</a>{% endfor %}
+        <div class="ui grey bottom attached label"><div id="tags">Tags:</div>{% for tag in post.tags %}<a class="ui orange label">{{ tag }}</a>{% endfor %}
         </div>
       </div>
     </div>

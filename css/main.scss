@@ -14,8 +14,12 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
+// While Theme
+//$text-color:       #111;
+//$background-color: #fdfdfd;
+// Dark Theme
+$text-color:       #eee;
+$background-color: #2f3238;
 //$brand-color:      #2a7ae2;
 $brand-color:      #FFA500;
 
@@ -23,6 +27,7 @@ $orange-color:     #FFA500;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+$inverted-color:   #1B1C1D;
 
 // Width of the content area
 $content-width:    900px;

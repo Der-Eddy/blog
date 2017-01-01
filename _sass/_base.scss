@@ -16,8 +16,9 @@ dl, dd, ol, ul, figure {
 body {
     //font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     font-size: $base-font-size !important;
-    color: $text-color;
-    background-color: $background-color;
+    color: $text-color !important;
+    background-color: $background-color !important;
+    background-image: url("../img/stardust.png") !important;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -123,6 +124,11 @@ h1, h2, h3, h4, h5, h6 {
         color: darken($brand-color, 15%)!important;
         text-decoration: none;
     }
+}
+
+a.site-title {
+    color: darken($brand-color, 5%)!important;
+    text-decoration: none;
 }
 
 

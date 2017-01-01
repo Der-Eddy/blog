@@ -3,7 +3,8 @@
  */
 .site-header {
     border-top: 5px solid $orange-color;
-    border-bottom: 1px solid $grey-color-light;
+    background: $inverted-color;
+    border-bottom: 1px solid $grey-color-dark;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -47,7 +48,7 @@
         top: 9px;
         right: $spacing-unit / 2;
         background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        border: 1px solid $grey-color-dark;
         border-radius: 5px;
         text-align: right;
 
@@ -98,8 +99,9 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $grey-color-dark;
     padding: $spacing-unit 0;
+    background-color: $inverted-color;
 }
 
 .footer-heading {
@@ -245,7 +247,8 @@
 }
 
 div.wrapper p {
-    color: $grey-color-dark;
+    // Dark Theme
+    //color: $grey-color-dark;
 }
 
 div.wrapper .date {
@@ -274,24 +277,39 @@ a.post-link {
 }
 
 .ui.feed > .event > .label > .icon, .ui.feed > .event > .label > img {
-    background-color: white!important;
+    // White Theme
+    //background-color: white!important;
+    // Dark Theme
+    background-color: $inverted-color !important;
 }
 
 .ui.feed {
-    margin-top: 10px!important;
+    margin-top: 10px !important;
 }
 
-#tags{
+.ui.feed > .event > .content {
+    .summary {
+        color: $text-color !important;
+    }
+    .extra {
+        color: $text-color !important;
+    }
+    .date {
+        color: lighten($text-color, 50%) !important;
+    }
+}
+
+#tags {
     font-size: 14px;
     font-weight: 600;
-    margin-bottom: 5px!important;
+    margin-bottom: 5px !important;
 }
 
-.post{
+.post {
     margin-bottom: 2em;
 }
 
-.column .post-content p:first-child:first-letter  {
+.column .post-content p:first-child:first-letter {
   font-family: 'Lora', serif;
   font-size: 3.5em;
   text-transform: capitalize;
@@ -358,4 +376,8 @@ a.post-link {
   50% {
     opacity: 0.0;
   }
+}
+
+pre, code {
+    background-color: $inverted-color !important;
 }

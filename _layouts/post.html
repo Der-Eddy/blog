@@ -22,7 +22,7 @@ layout: default
       {% if page.choosen %}
       <a class="ui pointing below red label">Vom Autor ausgewählter Artikel
       </a>{% endif %}
-      <div class="ui raised segment">
+      <div class="ui inverted raised segment">
         <header class="post-header">
           <a class="ui orange ribbon label">{{ page.category }}
           </a>
@@ -63,7 +63,7 @@ layout: default
           {{ page.content }}
         </div>
         <br>
-        <div class="ui bottom attached label"><div id="tags">Tags:</div>{% for tag in page.tags %}<a class="ui orange label">{{ tag }}</a>{% endfor %}
+        <div class="ui grey bottom attached label"><div id="tags">Tags:</div>{% for tag in page.tags %}<a class="ui orange label">{{ tag }}</a>{% endfor %}
         </div>
       </div>
     </div>
@@ -73,8 +73,8 @@ layout: default
   <div class="ui feed">
   </div>
   <div class="column">
-    <div class="ui raised segment">
-      <div class="ui top attached label">Letzte Artikel:
+    <div class="ui inverted raised segment">
+      <div class="ui grey top attached label">Letzte Artikel:
       </div>
       {% for post in site.related_posts limit:3 %}
       <p>
