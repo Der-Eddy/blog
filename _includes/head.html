@@ -20,10 +20,37 @@
 
   <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
 <script type="text/javascript">
-    window.cookieconsent_options = {"message":"Diese Webseite nutzt Cookies, um den Traffic auf diese Website zu analysieren. Informationen zu Ihrer Nutzung unserer Website werden daher an Google übermittelt.","dismiss":"OK","learnMore":"Mehr Infos","link":"https://blog.eddydev.de/about/","theme":"dark-bottom"};
+    window.cookieconsent_options = {"message":"Diese Webseite nutzt Cookies, um den Traffic auf diese Website zu analysieren.","dismiss":"OK","learnMore":"Mehr Infos","link":"https://blog.eddy-dev.net/about/","theme":"dark-bottom"};
 </script>
 
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
 <!-- End Cookie Consent plugin -->
+
+
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  // tracker methods like "setCustomDimension" should be called before "trackPageView"
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.eddy-dev.net"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik.eddy-dev.net/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//piwik.eddy-dev.net/piwik.php?idsite=1&rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+<!-- Piwik Image Tracker-->
+<noscript>
+    <img src="https://piwik.eddy-dev.net/piwik.php?idsite=1&rec=1&action_name=blog" style="border:0" alt="" />
+</noscript>
+<!-- End Piwik -->
 
 </head>
