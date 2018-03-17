@@ -1,7 +1,7 @@
 Tsundere-Eddys Blog
 =====================
 
-Mein auf GitHub gehosteter statischer Blog welcher [jekyll](https://jekyllrb.com/) nutzt: https://blog.eddy-dev.de
+Mein auf GitHub gehosteter statischer Blog welcher [jekyll](https://jekyllrb.com/) nutzt: https://blog.eddy-dev.net
 
 Build:
 -------------

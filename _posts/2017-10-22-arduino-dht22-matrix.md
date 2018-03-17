@@ -2,7 +2,7 @@
 layout: post
 title:  "Arduino Uno: DHT22 Sensor + MAX7219 Matrix Display"
 date:   2017-10-22 17:00:00 +0100
-category: Breadboard
+category: Elektronik
 tags: arduino breadboard dht22 sensor MAX7219 matrix
 author: Der-Eddy
 keyword: arduinodhtmax
