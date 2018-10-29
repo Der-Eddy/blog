@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Tsundere-Eddy Blog
+title: blog.eddy-dev
 description: In diesem Blog behandle ich alle Themen die mir so durch den Kopf gehen, egal ob Schimpftiraden, Programmier Fails, Spiele oder süße Anime Mädchen. Rechtschreib- und Grammatikfehler inklusive.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.eddydev.de/" # the base hostname & protocol for your site
