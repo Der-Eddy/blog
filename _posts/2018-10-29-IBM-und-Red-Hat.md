@@ -2,8 +2,8 @@
 layout: post
 title:  "IBM und Red Hat"
 date:   2018-10-29 20:00:00 +0100
-category: Dev
-tags: ibm linux red hat centos fedora
+category: Linux
+tags: ibm cloud linux redhat centos fedora
 author: Der-Eddy
 keyword: roterhut
 ---
