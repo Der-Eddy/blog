@@ -22,7 +22,7 @@ layout: default
   {% assign minutes_i = num_words | divided_by: 150 %}
   {% assign diff = minutes_f | minus: minutes_i %}
   {% if diff >= 0.5 %}
-      {% assign minutes = minutes_i + 1 %}
+      {% assign minutes = minutes_i %}
   {% else %}
       {% assign minutes = minutes_i %}
   {% endif %}
