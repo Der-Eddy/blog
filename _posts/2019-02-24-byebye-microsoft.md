@@ -31,18 +31,19 @@ Die passende Desktopoberfläche
 Unter Arch Linux kann man so ziemlich jede absurde Kombination installieren, ich habe mich aber erst mal mit den großen Drei auseinandergesetzt, XFCE, Gnome und KDE. XFCE findet seine Nische als leichtgewichtige Oberfläche, welche jedoch auf GTK aufbaut. Gnome war für mich eine absolute Katastrophe, nicht nur das es viel zu viele Ressourcen für zu wenig Nutzen verbraucht, sondern die Entwickler aktiv Features mit neueren Versionen entfernen. In meiner Anfangszeit hatte ich noch Spaß an Gnome 2 gehabt, mit Gnome 3 haben die Entwickler jedoch in meinen Augen nichts Ordentliches hervorgebracht.
 Blieb noch KDE Plasma übrig, welches Qt statt GTK nutzt und mit einem großen Umfang an Zusatzsoftware passend für KDE entwickelt.
 
-<img class="lazy" data-original="https://i.imgur.com/hZTdlL5.png">
+<a href="https://i.imgur.com/hZTdlL5.png"><img class="lazy" data-original="https://i.imgur.com/hZTdlL5.png"></a>
 
 KDE hat mich wirklich überrascht mit seinem großen Umfang an Optionen und der Möglichkeit über kvantum das Design noch genauer anpassen zu können. Zusätzlich bin ich um einiges mehr zufrieden mit dem File Manager Dolphin als mit der GTK Katastrophe Nautilus. Ein weiteres cooles Feature von KDE ist auch KDE Connect, welches für eine ähnliche Erfahrung wie macOS <> iOS jedoch für Linux <> Android sorgt und Benachrichtigungen oder Dateien austauscht oder die Wiedergabe am Linux Computer automatisch stoppt bei einem Anruf.
 
-<img class="lazy" data-original="https://i.imgur.com/xgmepwj.png">
+<a href="https://i.imgur.com/xgmepwj.png"><img class="lazy" data-original="https://i.imgur.com/xgmepwj.png"></a>
 
 Anschließend entschied ich mich letztlich für KDE Plasma anstatt dem überaus beliebten Gnome 3 oder Alternativen.
 
 Spiele
 ---
 
-Ein weiteres Problem beim Umstieg waren für mich Spiele, der Großteil meiner Steam Bibliothek ist schließlich Windows exklusiv. Hier preschte Valve letztes Jahr mit Proton für ihre Vertriebsplattform Steam hervor. Proton ist eine Kombination aus Wine, Winetricks, DXVK und anderen Kleinigkeiten um Windows exklusive Spiele unter Linux spielbar zu machen. Eine Auflistung von Nutzer-Berichten zu Proton findet man unter [Protondb](https://www.protondb.com/). Dadurch kommt meine Linux Bibliothek plötzlich auf knapp 70% meiner Windows Bibliothek auf Steam und in Kombination mit meiner Playstation 4, kann ich trotzdem fast jedes Spiel, das ich auch spielen möchte, auch ohne Windows spielen. Zugegeben, ich bin kein großer Fan von großen Multiplayer Spielen wie Apex Legends (welche oft Anti-Cheat Maßnahmen nutzen, welche inkompatibel zu Proton sind) oder AAA Spiele (welche oft Denuvo Kopierschutz nutzen, auch größtenteils inkompatibel zu Proton) wie das neueste Assassin's Creed.
+Ein weiteres Problem beim Umstieg waren für mich Spiele, der Großteil meiner Steam Bibliothek ist schließlich Windows exklusiv. Hier preschte Valve letztes Jahr mit Proton für ihre Vertriebsplattform Steam hervor. Proton ist eine Kombination aus Wine, Winetricks, DXVK und anderen Kleinigkeiten um Windows exklusive Spiele unter Linux spielbar zu machen. Eine Auflistung von Nutzer-Berichten zu Proton findet man unter [Protondb](https://www.protondb.com/). Dadurch kommt meine Linux Bibliothek plötzlich auf knapp 70% meiner Windows Bibliothek auf Steam und in Kombination mit meiner Playstation 4, kann ich trotzdem fast jedes Spiel, das ich auch spielen möchte, auch ohne Windows spielen. 
+Zugegeben, ich bin kein großer Fan von großen Multiplayer Spielen wie Apex Legends (welche oft Anti-Cheat Maßnahmen nutzen, welche inkompatibel zu Proton sind) oder AAA Spiele (welche oft Denuvo Kopierschutz nutzen, auch größtenteils inkompatibel zu Proton) wie das neueste Assassin's Creed. Wodurch die meisten Spiele, welche Probleme machen, schlicht wegfallen.
 
 <img class="lazy" data-original="https://i.imgur.com/Bf36nO6.png">
 
