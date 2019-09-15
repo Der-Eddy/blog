@@ -10,6 +10,6 @@ Alternativ wird über `jekyll serve` auch der Blog über einen minimalen Webserv
 
 Screenshots:
 -------------
-![page](https://abload.de/img/screenshot_2019-09-15nwky3.png)
+![page](https://i.imgur.com/zcoza1S.png)
 
-![updates](https://abload.de/img/screenshot_2019-09-15spk5d.png)
+![updates](https://i.imgur.com/Td2M4OC.png)
