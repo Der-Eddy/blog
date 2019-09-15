@@ -15,10 +15,15 @@ dl, dd, ol, ul, figure {
  */
 body {
     //font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    font-size: $base-font-size !important;
-    color: $text-color !important;
-    background-color: $background-color !important;
-    background-image: url("../img/stardust.png") !important;
+    font-size: $base-font-size;
+    color: $text-color;
+    background: repeating-linear-gradient(
+        -50deg,
+        $background-color,
+        $background-color 10px,
+        darken($background-color, 10%) 10px,
+        darken($background-color, 10%) 20px
+    );
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
