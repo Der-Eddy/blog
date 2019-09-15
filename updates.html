@@ -5,7 +5,7 @@ permalink: /updates/
 icon: clock
 ---
 <p>Diese Seite zeigt die letzten Änderungen am <a href="https://github.com/Der-Eddy/blog">Quellcode</a> dieses Blogs.</p>
-<table class="ui unstackable table">
+<table class="ui unstackable inverted table">
   <tbody id="updates">
   </tbody>
 </table>
@@ -17,7 +17,7 @@ $.getJSON( "https://api.github.com/repos/Der-Eddy/blog/commits", function( data 
               '<td class="collapsing"><img src="' + commit.author.avatar_url + '" width="36" height="36"></td>' +
               '<td><b>' + commit.commit.message + '</b><br>' +
                 '<span><a href="' + commit.author.html_url + '" target="_blank">' + commit.author.login + '</a> committed ' + $.format.prettyDate(commit.commit.committer.date) + '</span>' +
-              '</td><td class="right aligned"><a href="' + commit.html_url + '"><button class="ui blue basic fluid button">' + commit.sha.substring(0, 7) + '</button></a></td></tr>');
+              '</td><td class="right aligned"><a href="' + commit.html_url + '"><button class="ui blue button">' + commit.sha.substring(0, 7) + '</button></a></td></tr>');
         });
 }).error(function() { alert("GitHub API down?"); });
 </script>
