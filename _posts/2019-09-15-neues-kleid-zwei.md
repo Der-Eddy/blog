@@ -13,7 +13,7 @@ In 2017 habe ich diesem Blog ein dunkleres Design verpasst, siehe [Neues Kleid](
 <a href="https://abload.de/img/fireshotscreencapturez5xro.png"><img class="lazy" data-original="https://abload.de/img/fireshotscreencapturez5xro.png"></a>
 
 **Nachher:**
-<a href="https://abload.de/img/screenshot_2019-09-15nwky3.png">><img class="lazy" data-original="https://abload.de/img/screenshot_2019-09-15nwky3.png"></a>
+<a href="https://abload.de/img/screenshot_2019-09-15nwky3.png"><img class="lazy" data-original="https://abload.de/img/screenshot_2019-09-15nwky3.png"></a>
 
 Zusätzlich hab ich die Navigations-Links im Header angepasst und Icons gegeben. Außerdem bekam die Seite für die git commit Historie ein dunkles Design:
 
