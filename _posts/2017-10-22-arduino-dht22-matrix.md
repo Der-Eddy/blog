@@ -21,8 +21,8 @@ Ein kleines Sonntags-Projekt mit den Teilen die ich noch übrig hatte. Natürlic
 Die Idee ist simpel, über den DHT22 Sensor wird Temperatur und Luftfeuchtigkeit ausgelesen und anschließend in einem Scroll Text auf dem Matrix Display angezeigt. Mein Matrix LED Display hat einen eingebauten MAX7219, sodass man weniger Pins zum ansteuern benötigt. Insgesamt werden nur 4 digitale Pins (3 x MAX7219, 1 x DHT22) vom Arduino genutzt. Zusätzlich hängt am Data-Pin vom DHT22 Sensor noch ein 10kΩ Widerstand, der MAX7219 Chip hat dagegen schon alle benötigten Widerstände eingebaut.
 
 **Video:**
-<div class="ui embed" data-source="youtube" data-id="dy9a9WpPSwA" data-placeholder="https://i.imgur.com/t1MhQzk.jpg"></div>
-<script>$('.ui.embed').embed();</script><br>
+{% include video.html youtube-id="dy9a9WpPSwA" thumbnail="youtube-thumbnail.jpg" %}
+
 
 Zur Ansteuerung vom DHT22 Sensor nutze ich die [DHT Sensor Library](https://github.com/adafruit/DHT-sensor-library) von Adafruit, für das MAX7219 LED Matrix Display nutze ich die [MaxMatrix Library](https://github.com/javastraat/arduino/tree/master/libraries/MaxMatrix). Der Großteil vom Code für die Display-Steuerung habe ich mir von diesem Kollegen ab geschaut: [https://brainy-bits.com/blogs/tutorials/scroll-text-using-the-max7219-led-dot-matrix  ](https://brainy-bits.com/blogs/tutorials/scroll-text-using-the-max7219-led-dot-matrix)  
 Anschließend noch der C-Code für den Arduino:
