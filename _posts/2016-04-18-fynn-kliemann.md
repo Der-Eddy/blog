@@ -11,10 +11,8 @@ Heute möchte ich mal anfangen einige Perlen auf YouTube zu zeigen welche wahrsc
 
 Fynn Kliemann macht hauptsächlich DIY (Do-it-yourself) Videos welcher er mit einer GoPro filmt, dabei nutzt er oft das Handmaß, lieber Pi mal Daumen und lieber ne Schutzbrille zu wenig als zu viel. Dazu kommen schräge Projekte auf die man wahrscheilich nie kommen würde, [aus einem Ford Mondeo einen Pickup Truck bauen](https://www.youtube.com/watch?v=Z4Ywga1SbnY) wäre hierbei nur ein Beispiel. Aber schauts euch einfach mal selber an:
 
-<div class="ui embed" data-source="youtube" data-id="a0qGERVcC9E" data-placeholder="https://i.imgur.com/lCEWGoq.jpg"></div>
-<script>$('.ui.embed').embed();</script><br>
+{% include video.html youtube-id="a0qGERVcC9E" thumbnail="youtube-thumbnail.jpg" %}
 
-<div class="ui embed" data-source="youtube" data-id="o_0bntWMsh0" data-placeholder="https://i.imgur.com/IX90Hey.jpg"></div>
-<script>$('.ui.embed').embed();</script><br>
+{% include video.html youtube-id="o_0bntWMsh0" thumbnail="youtube-thumbnail2.jpg" %}
 
 Dabei ist kein Problem zu schwierig für Herrn Kliemann.
