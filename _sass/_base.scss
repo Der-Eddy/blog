@@ -53,10 +53,16 @@ img {
     vertical-align: middle;
 }
 
-p img {
+figure.image img {
     max-width: 100%;
     display: block;
     margin: 0 auto;
+}
+
+figure.image figcaption {
+    text-align: center;
+    color: darken($text-color, 30%);
+    font-style: italic;
 }
 
 
