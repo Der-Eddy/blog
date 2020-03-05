@@ -16,7 +16,7 @@ Ein kleines Sonntags-Projekt mit den Teilen die ich noch übrig hatte. Natürlic
  - MAX7219 Matrix 8x8 LED Display
 
 **Schematic:**
-<img class="lazy" data-original="https://i.imgur.com/WbJwSOo.png">
+{% include image.html url="schematic.png" description="Generiert mit fritzing.org" %}
 
 Die Idee ist simpel, über den DHT22 Sensor wird Temperatur und Luftfeuchtigkeit ausgelesen und anschließend in einem Scroll Text auf dem Matrix Display angezeigt. Mein Matrix LED Display hat einen eingebauten MAX7219, sodass man weniger Pins zum ansteuern benötigt. Insgesamt werden nur 4 digitale Pins (3 x MAX7219, 1 x DHT22) vom Arduino genutzt. Zusätzlich hängt am Data-Pin vom DHT22 Sensor noch ein 10kΩ Widerstand, der MAX7219 Chip hat dagegen schon alle benötigten Widerstände eingebaut.
 
