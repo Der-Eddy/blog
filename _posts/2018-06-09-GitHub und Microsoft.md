@@ -12,15 +12,15 @@ keyword: githubms
 
 Vielen GitHub Nutzern stößt die Ankündigung sauer auf, vor allem auch auf Reddit:
 
-<img class="lazy" data-original="https://i.imgur.com/Tb9JgDB.png">
+{% include image.html url="reddit.png" %}
 
 Die Realität sieht jedoch anders aus, vor einigen Jahren hat Microsoft angefangen sich mehr mit Open-Source auseinander zu setzen und ihre GitHub Repositories gehören zu den beliebtesten:
 
-<img class="lazy" data-original="https://i.imgur.com/1YgbzpF.png">
+{% include image.html url="microsoft-repository.png" %}
 
 Vor allem auch Visual Studio Code gilt [inzwischen als beliebterer Editor](https://insights.stackoverflow.com/survey/2018/#development-environments-and-tools) als Atom.io (welcher von GitHub gepusht wurde) und Visual Studio (ohne "Code") gehört auch immer noch zu den ganz Großen.
 
-<img class="lazy" data-original="https://i.imgur.com/gIlea2n.png">
+{% include image.html url="stackoverflow.png" description="Screenshot von Stackoverflow Developer Survey 2018" %}
 
 Trotzdem bleibt ein fader Beigeschmack, Microsoft nutzt beispielweise bis heute ein proprietäres Format für ihre Office Dokumente.
 
