@@ -30,7 +30,7 @@ Kaum ausgepackt musste ich erst mal alle meine Medien rüberportieren. Zu dem Ze
 Gleich darauf fiel mir auf das mein Stock Android gar nicht so "Stock" ist wie immer behauptet wird. Google Dienste sind krass stark eingebunden, nicht mal den "Squeeze" (bei dem man das Gerät zusammendrücken kann, um den Google Assistent zu öffnen) konnte ich auf eine andere App legen. Genauso unnütz ist die Stock-Zeit App. Weiterer Unsinn wie Unlimited Speicher für Google Fotos oder die absurd schreckliche Google Music App konnte mir auch erspart bleiben. Blieb mir ein Android 9 Gerät ohne anständige Musik App und direkten Draht zu Google.
 Weiterhin gibt Google den Pixel Geräten exklusive Features, die sonst kein anderes Gerät bekommt, z. B. die Shazam-esque Musik Erkennung im Lockscreen:
 
-{% include image.html url="pixel.png" %}
+{% include image.html url="pixel.jpg" %}
 
 Vielleicht war es eine dumme Idee ein Google Handy zu kaufen, wenn ich sowieso Abstand von Google nehmen wollte, letztlich habe ich mein Pixel 3 soweit angepasst das Google so wenig wie möglich mitbekommt. Ein extrem guter Helfer dafür war unter anderem der [F-Droid Store](https://f-droid.org/), welcher eine direkte Alternative zum Google Play Store ist und oft einfach qualitativ bessere Apps bietet. Die Entwickler vom F-Droid Store haben es sich zur Aufgabe gemacht Open-Source Apps, ohne Googles mitwissen zu verbreiten, dafür werden alle Apps im offiziellen Repository von F-Droid Entwicklern kompiliert und signiert, Werbung oder Tracker sind dabei explizit nicht erlaubt. Allgemein hat es mich erschreckt, wie viele Android Apps schlicht komplett voll von irgendwelchen Trackern sind, die teilweise in Frameworks standardmäßig implementiert sind.
 
