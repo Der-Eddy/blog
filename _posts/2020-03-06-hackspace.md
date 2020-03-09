@@ -22,6 +22,8 @@ Auch spannend für mich ist der Grad der Heimautomatisierung welche man dort auf
 
 Das Haupt-Gebäude hat auch eine interessante Türsteuerung: Vereinsmitglieder können die Tür per App öffnen und von innen gibt es eine Ampel-ähnliche Steuerung. 
 
+{% include image.html url="doorlock.jpg" description="Außer mit der App, kann man die Tür auch per Hardware steuern" %}
+
 - "Grün" bedeutet, dass die Tür offen für alle ist, das wird auch auf der Webseite so öffentlich angezeigt. 
 - "Gelb" bedeutet, dass ein Mitglied anwesend ist, jedoch nicht im Hauptraum ist um Nicht-Mitglieder zu empfangen. 
 - "Rot" steht schlicht dafür das niemand anwesend ist und die Tür zuschließt, auch diesen Status findet man auf der Webseite.
