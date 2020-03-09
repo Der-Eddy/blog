@@ -14,7 +14,7 @@ Vor etwas mehr als einen Monat hab ich mich nun endlich auch getraut in einem me
 
 {% include image.html url="outside.jpg" description="Die Front des Hauptgebäudes ist mit LED Spielereien geschmückt" %}
 
-Jeden Montag Abend werden gerne Führungen dort angeboten durch die 3 größeren Räume: Einer "Lounge" mit angegliederter Küche, im Keller ein Labor mit Lötstationen, 3D-Druckern und Amateurfunker Equipment und auf der gegenüberliegenden Straßenseite eine Werkstatt mit CNC Fräse, Lasercutter und anderem Werkzeug. Vor allem der 80W CO² Lasercutter um unter anderem Holz oder Plexiglas über SVG Dateien "auszuschneiden" hat es mir angetan, in einem zukünftigen Blog-Eintrag wird es mehr Informationen zu ersten Projekten damit von mir geben. Einige Beispiele was man aus Holz machen kann, <a href="https://florianfesti.github.io/boxes/html/generators.html">findet man hier</a>.
+Jeden Montag Abend werden gerne Führungen dort angeboten durch die 3 größeren Räume: Einer "Lounge" mit angegliederter Küche, im Keller ein Labor mit Lötstationen, 3D-Druckern und Amateurfunker Equipment und auf der gegenüberliegenden Straßenseite eine Werkstatt mit CNC Fräse, Lasercutter und anderem Werkzeug. Vor allem der 80W CO<sub>2</sub> Lasercutter um unter anderem Holz oder Plexiglas über SVG Dateien "auszuschneiden" hat es mir angetan, in einem zukünftigen Blog-Eintrag wird es mehr Informationen zu ersten Projekten damit von mir geben. Einige Beispiele was man aus Holz machen kann, <a href="https://florianfesti.github.io/boxes/html/generators.html">findet man hier</a>.
 
 {% include image.html url="inside.jpg" description="Im Hauptraum findet man in jeder Ecke spannende Sachen" %}
 
