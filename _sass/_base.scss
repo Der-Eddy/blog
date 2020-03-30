@@ -247,3 +247,12 @@ pre {
         }
     }
 }
+
+/**
+ * Unset font-size from fomantic-ui
+ */
+
+ .ui.segment,
+ .ui.segments .segment {
+  font-size: unset;
+ }
