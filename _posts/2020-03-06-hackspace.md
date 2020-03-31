@@ -5,6 +5,7 @@ date:   2020-03-06 14:00:00 +0100
 category: Hackspace
 tags: hackspace
 author: Der-Eddy
+preview: outside.jpg
 keyword: bk
 ---
 
