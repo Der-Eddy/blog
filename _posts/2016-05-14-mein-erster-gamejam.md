@@ -5,6 +5,7 @@ date:   2016-05-14 17:00:54 +0100
 category: Development
 tags: dev spiele
 author: Der-Eddy
+preview: quest.png
 keyword: rbcgj1
 ---
 Inzwischen ist es fast ein Monat her nach dem ich mir den Entschluss gefasst habe bei meinem ersten Game Jam teilzunehmen. Genauer gesagt um den ersten [#rbcgj](http://jams.gamejolt.io/rbtvcgj), vor allem weil die Game Jam Seite eine "Newbie Zone" bereitstellt um auch totalen Anfängern zu helfen.
@@ -14,7 +15,7 @@ Jedoch habe ich dafür fast eine Woche gebraucht und mich auch größtenteils an
 
 Ein Game Jam in 48 Stunden war dann schon was anderes, nicht nur das ein Thema vorgegeben wird, auch die Tatsache das ich erst mal alleine was auf die Beine stellen wollte. Vor allem habe ich mir meine Ziele zu hoch gestreckt, alleine das finden von ein paar coolen Sprites und die Anpassung an meine Engine dauerte mehrere Stunden in Photoshop und musste erst mal mit common pitfalls mich auseinandersetzen. Letztlich hab ich auch noch meinen ersten richtigen Sprite erstellt und eine absolute einfache Idle Animation daraus gebastelt.
 
-{% include image.html url="quest.png" description="Die erste Quesst" %}
+{% include image.html url="quest.png" description="Die erste Quest" %}
 
 Ich war schon nach kurzer Zeit überrascht wie viel eigentlich hinter dem Gamemaker:&nbsp;Studio steckt und wie mächtig man die Scripting Language auslegen kann. Es ist per se nicht das beste für einen Anfänger und ich hatte große Probleme beim Umstieg von einer IDE rein für das programmieren zum Komplett Paket Gamemaker:&nbsp;Studio. Letztlich war es jedoch nicht so schlimm nach dem man erst mal den Ansatz verstanden hat.
 
