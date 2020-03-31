@@ -17,7 +17,9 @@
   <meta property="article:published_time" content="{{ page.date }}" />
   <meta property="article:section" content="{{ page.category }}" />
   <meta property="article:tag" content="{{ page.tags }}" />
-  {% if page.preview %}<meta property="og:image" content="{{ site.github.url }}/img/{{ page.keyword }}/{{ page.preview }}">{% endif %}
+  {% endif %}
+  {% if page.preview %}
+  <meta property="og:image" content="{{ site.github.url }}/img/{{ page.keyword }}/{{ page.preview }}">
   {% else %}
   <meta property="og:image" content="{{ site.logo }}">
   {% endif %}
