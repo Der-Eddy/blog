@@ -5,6 +5,7 @@ date:   2020-03-09 17:00:00 +0100
 category: Hackspace
 tags: hackspace laser
 author: Der-Eddy
+preview: nametag.jpg
 keyword: bklaser
 ---
 In meinem letzten [Blog Eintrag]({% link _posts/2020-03-06-hackspace.md %}) hab ich bereits erwähnt das es im Hackspace einen CO<sub>2</sub> Lasercutter gibt. Heute habe ich endlich mal mit diesem rumexperimentiert und als Ziel gesetzt ein Namensschild für meinen Schlüsselbund zu erstellen.
