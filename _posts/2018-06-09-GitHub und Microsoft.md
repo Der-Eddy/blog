@@ -5,6 +5,7 @@ date:   2018-06-09 16:00:00 +0100
 category: Dev
 tags: git open-source ms
 author: Der-Eddy
+preview: stackoverflow.png
 keyword: githubms
 ---
 
