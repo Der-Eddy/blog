@@ -5,6 +5,7 @@ date:   2019-02-23 20:00:00 +0100
 category: Umstieg
 tags: apple android mobile
 author: Der-Eddy
+preview: jailbreak.png
 keyword: byebyeapple
 ---
 
