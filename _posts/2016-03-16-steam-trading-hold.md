@@ -5,6 +5,7 @@ date:   2016-03-16 15:07:00 +0100
 category: Steam
 tags: steam valve trading rant
 author: Der-Eddy
+preview: tradehold_blogpost.jpg
 keyword: steamtrading
 ---
 Heute möchte ich kurz darüber sprechen warum Valve mit ihrem letzten [Security Update](http://store.steampowered.com/news/20631/) den richtigen Weg geht.  
