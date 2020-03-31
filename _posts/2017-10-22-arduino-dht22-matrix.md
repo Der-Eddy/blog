@@ -5,6 +5,7 @@ date:   2017-10-22 17:00:00 +0100
 category: Elektronik
 tags: arduino breadboard dht22 sensor MAX7219 matrix
 author: Der-Eddy
+preview: schematic.png
 keyword: arduinodhtmax
 ---
 Ein kleines Sonntags-Projekt mit den Teilen die ich noch übrig hatte. Natürlich hätte ich auch einfach alle Komponenten direkt an den Arduino anschließen können, jedoch wäre das Ganze dann nicht so schön aufgeräumt. Benutzt habe ich diese Teile für mein Vorhaben:
