@@ -69,12 +69,18 @@ layout: default
     </div>
   </div>
 </article>
-<div class="ui one column grid">
-  <div class="ui feed">
+{% if page.keyword %}
+<div class="column">
+  <div class="ui inverted raised segment">
+    <div class="ui grey top attached label">Git commits für diesen Artikel
+    </div>
+    <div class="ui feed">
   </div>
+  </div>
+  {% endif %}
   <div class="column">
     <div class="ui inverted raised segment">
-      <div class="ui grey top attached label">Letzte Artikel:
+      <div class="ui grey top attached label">Letzte Artikel
       </div>
       {% for post in site.related_posts limit:3 %}
       <p>
