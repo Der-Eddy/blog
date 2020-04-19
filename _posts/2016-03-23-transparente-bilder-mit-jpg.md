@@ -16,7 +16,7 @@ Damit das funktioniert muss man jedoch zum JPG noch eine Maske für SVG anlegen.
 
 Anschließend kommt alles in ein SVG HTML Konstrukt.
 
-{% highlight html linenos %}
+```html
 <svg viewBox="0 0 1000 800" width="100%" height="100%">
   <defs>
     <mask id="iPhoneMask">
@@ -25,7 +25,7 @@ Anschließend kommt alles in ein SVG HTML Konstrukt.
   </defs>
   <image mask="url(#iPhoneMask)" id="iPhone" width="813" height="1644" xlink:href="https://i.imgur.com/pL5AyGJ.jpg"></image>
 </svg>
-{% endhighlight %}
+```
 
 <svg viewBox="-90 0 1000 800" width="100%" height="100%">
   <defs>
