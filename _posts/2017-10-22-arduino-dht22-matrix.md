@@ -27,7 +27,7 @@ Die Idee ist simpel, über den DHT22 Sensor wird Temperatur und Luftfeuchtigkeit
 
 Zur Ansteuerung vom DHT22 Sensor nutze ich die [DHT Sensor Library](https://github.com/adafruit/DHT-sensor-library) von Adafruit, für das MAX7219 LED Matrix Display nutze ich die [MaxMatrix Library](https://github.com/javastraat/arduino/tree/master/libraries/MaxMatrix). Der Großteil vom Code für die Display-Steuerung habe ich mir von diesem Kollegen ab geschaut: [https://brainy-bits.com/blogs/tutorials/scroll-text-using-the-max7219-led-dot-matrix  ](https://brainy-bits.com/blogs/tutorials/scroll-text-using-the-max7219-led-dot-matrix)  
 Anschließend noch der C-Code für den Arduino:
-{% highlight c linenos %}
+```c
 #include <MaxMatrix.h>
 #include <avr/pgmspace.h>
 #include <DHT.h>
@@ -191,4 +191,4 @@ void printStringWithShift(char* s, int shift_speed){
     s++;
   }
 }
-{% endhighlight %}
+```
