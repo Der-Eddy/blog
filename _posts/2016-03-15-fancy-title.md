@@ -11,7 +11,7 @@ Ich hab nun den Titel ein wenig aufgepept, nun mit ein wenig Terminal Flair und 
 
 Der Javascript Code vom Cursor ist mit JQuery übrigens schnell eingetragen:
 
-{% highlight html linenos %}
+```html
 <script>
     function cursorAnimation() {
                 $('#cursor').animate({
@@ -22,7 +22,7 @@ Der Javascript Code vom Cursor ist mit JQuery übrigens schnell eingetragen:
             }
     setInterval ('cursorAnimation()', 600);
 </script>
-{% endhighlight %}
+```
 
 **Nachtrag:**  
 Man kann dies natürlich auch in reinem CSS erreichen, jedoch sind diese Konstrukte wenn man einen flüssigeren Übergang haben möchte zielich groß und wenn ich schon JQuery in die Seite einbinde, warum nicht auch einfacher?
@@ -30,7 +30,7 @@ Man kann dies natürlich auch in reinem CSS erreichen, jedoch sind diese Konstru
 **Nachtrag 2:**  
 Da ich gerade Lust auf CSS Animations habe, habe ich mich noch mal dran gesetzt:
 
-{% highlight css linenos %}
+```css
 #cursor {
   display: inline;
   -webkit-animation: 1s blink ease infinite;
@@ -69,6 +69,6 @@ Da ich gerade Lust auf CSS Animations habe, habe ich mich noch mal dran gesetzt:
     opacity: 0.0;
   }
 }
-{% endhighlight %}
+```
 
 Blöd ist nur das [animation](https://developer.mozilla.org/de/docs/Web/CSS/CSS_Animations/CSS_Animationen_nutzen) leider immer noch "nur" ein Arbeitsentwurf ist sodass jeder Browser sein eigenes Süppchen kocht und man ohne Vendor Präfixe nicht umher kommt. Mit [Compass](http://compass-style.org) und [Sass](http://sass-lang.com/) könnte man das aber noch abkürzen.
