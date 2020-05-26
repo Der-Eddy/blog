@@ -256,3 +256,12 @@ pre {
  .ui.segments .segment {
   font-size: unset;
  }
+
+/**
+ * Fix not inverted content
+ */
+
+ .ui.header,
+ .ui.header .sub.header {
+  color: $text-color;
+ }
