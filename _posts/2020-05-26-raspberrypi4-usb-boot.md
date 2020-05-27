@@ -47,7 +47,7 @@ Und nun spielt man die neueste Beta Firmware über `rpi-eeprom-update` auf, daf�
 Nach einem abschließenden Reboot sollte der Raspberry Pi 4 nun endlich von USB booten können und die Micro-SD Karte für andere Zwecke verwendet werden. Das Einzige, was noch fehlt, ist die Bootloader Firmware eines Laufwerks eurer Wahl (z.B. USB-Stick oder SATA SSD/HDD über USB Adapter) anzupassen:
 Schreibt zuerst das neueste Raspbian auf euer Laufwerk und kopiert dann alle `*.elf` und `*.dat` Dateien aus dem `/boot` Verzeichnis eures gerade genutzten Raspbian von Micro-SD zum `/boot` Verzeichnis des USB Laufwerks. Bei der Gelegenheit kann eine leere Datei namens `ssh` angelegt werden im `/boot` Verzeichnis so fern man direkt über SSH auf den RasPi zugreifen möchte.
 
-Doch lohnt sich die Mühe? Ich habe die neue Beta EEPROM Firmware gleich mal getestet und eine SanDisk 16GB Micro-SD Karte, einen SanDisk 32GB USB 3.0 Stick und eine SanDisk 120GB SATA SSD über einen ELUTENG USB 3.0 zu SATA Adapter im Benchmark gegeneinander antreten lassen. Zum Einsatz kam die Benchmark Kollektion von [storage.jamesachambers.com ](https://storage.jamesachambers.com) welche DD, HD Parm, IOZone und FIO vereint.
+Doch lohnt sich die Mühe? Ich habe die neue Beta EEPROM Firmware gleich mal getestet und eine SanDisk 16GB Micro-SD Karte, einen SanDisk 32GB USB 3.0 Stick, eine SanDisk 120GB SATA SSD und eine Seagate 2TB 2,5" SATA SSD über einen ELUTENG USB 3.0 zu SATA Adapter im Benchmark gegeneinander antreten lassen. Zum Einsatz kam die Benchmark Kollektion von [storage.jamesachambers.com ](https://storage.jamesachambers.com) welche DD, HD Parm, IOZone und FIO vereint.
 
 <table class="ui inverted celled table">
   <thead>
@@ -116,8 +116,34 @@ Doch lohnt sich die Mühe? Ich habe die neue Beta EEPROM Firmware gleich mal get
         <h4 class="ui image header">
           <i class="inverted hdd outline icon"></i>
           <div class="content">
+            HDD
+            <div class="sub header">2TB 2,5" SATA 3
+          </div>
+        </div>
+      </h4></td>
+      <td>
+        110 MB/s
+      </td>
+      <td>
+        270 MB/s
+      </td>
+      <td>
+        72 MB/s
+      </td>
+      <td>
+        ~2060 IOPS
+      </td>
+      <td>
+        ~430 IOPS
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4 class="ui image header">
+          <i class="inverted hdd outline icon"></i>
+          <div class="content">
             SSD
-            <div class="sub header">120 GB SATA 3
+            <div class="sub header">120 GB 2,5" SATA 3
           </div>
         </div>
       </h4></td>
@@ -140,7 +166,7 @@ Doch lohnt sich die Mühe? Ich habe die neue Beta EEPROM Firmware gleich mal get
   </tbody>
 </table>
 
-Mit einer schnelleren Micro-SD Karte hätte ich wahrscheinlich an der maximalen Grenze von 50 MB/s kratzen können, weder SD-Karte noch USB-Stick bekommen jedoch ordentliche IOPS Werte hin. Dafür fühlt sich das System auf einer SATA SSD erstmal richtig flott an, vor allem wenn man über `apt` Pakete installiert dauert, das keine halbe Ewigkeit mehr, sondern geht, genauso schnell wie auf einem richtigen Desktop oder Laptop. Ein weiteres Plus ist das SSDs wear-leveling besitzen während der Großteil aller SD Karten und USB-Sticks das nicht haben, außerdem kann man selbst ohne wear-leveling eine viel längere Laufzeit erwarten gegenüber den billigeren Flash-Chips in SD Karten und USB-Sticks.
+Mit einer schnelleren Micro-SD Karte hätte ich wahrscheinlich an der maximalen Grenze von 50 MB/s kratzen können, weder SD-Karte noch USB-Stick oder HDD bekommen jedoch ordentliche IOPS Werte hin. Dafür fühlt sich das System auf einer SATA SSD erstmal richtig flott an, vor allem wenn man über `apt` Pakete installiert dauert, das keine halbe Ewigkeit mehr, sondern geht, genauso schnell wie auf einem richtigen Desktop oder Laptop. Ein weiteres Plus ist das SSDs wear-leveling besitzen während der Großteil aller SD Karten und USB-Sticks das nicht haben, außerdem kann man selbst ohne wear-leveling eine viel längere Laufzeit erwarten gegenüber den billigeren Flash-Chips in SD Karten und USB-Sticks.
 Leider hatte ich keinen schnellen USB 3.1 Stick zur Hand, [Benchmarks](https://storage.jamesachambers.com/benchmark/25597) zeigen jedoch auf das man über einen etwas teureren USB-Stick auch sehr schnell ans Ziel kommt.
 
 Trotz Beta-Status lief das EEPROM Firmware Update sehr gut bei mir, die ersten Bug-Fixes trudeln auch bereits ein. Sobald die Firmware als stabil gekennzeichnet wurde, wird es auch einfacher diese aufzuspielen und ein einfaches 'rpi-update' sollte in einem zukünftigen Update genügen.
