@@ -72,7 +72,17 @@ layout: default
         <a class="post-link" href="{{ post.url }}">{{ post.title }}
         </a>
         <div class="post">
-          {{ post.content }}
+          {% if post.force_excerpt %}
+            {{ post.excerpt }}
+            <a class="post-link" href="{{ post.url }}">
+              <button class="ui right labeled icon orange button">
+                <i class="right arrow icon"></i>
+                Weiterlesen
+              </button>
+            </a>
+          {% else %}
+            {{ post.content }}
+          {% endif %}
         </div>
         <br>
         <div class="ui grey bottom attached label"><div id="tags">Tags:</div>{% for tag in post.tags %}<a class="ui orange label">{{ tag }}</a>{% endfor %}

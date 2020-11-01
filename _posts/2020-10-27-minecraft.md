@@ -7,6 +7,7 @@ tags: minecraft microsoft
 author: Der-Eddy
 preview: World1.png
 keyword: minecraft
+force_excerpt: true
 ---
 
 Vor fast genau 10 Jahren hatte ich mir ein kleines Indie-Spiel namens Minecraft gekauft. Einige Jahre später hat sich aus einem kleinen Indie-Spiel eines der beliebtesten Spiele der Welt entwickelt für den Microsoft ganze 2,5 Milliarden Dollar in 2014 hingeblättert hatte.
