@@ -8,7 +8,7 @@ author: Der-Eddy
 keyword: kategorien
 preview: screenshot_head.png
 ---
-Seit ich diesen Blog betreibe träumte ich von einem Feature, das ich schon immer implementieren wollte. Diese Woche hatte ich endlich die zündenden Idee, wie so oft mehr spät als früh, um sie endlich umzusetzen.
+Seit ich diesen Blog betreibe, träumte ich von einem Feature, das ich schon immer implementieren wollte. Diese Woche hatte ich endlich die zündende Idee, wie so oft mehr spät als früh, um es endlich umzusetzen.
 
 {% include image.html url="screenshot_head.png" description="Ein kleiner Auszug aus der neuen Seite" %}
 
