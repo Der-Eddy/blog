@@ -6,6 +6,7 @@ category: Linux
 tags: ibm cloud linux redhat centos fedora
 author: Der-Eddy
 keyword: roterhut
+preview: centos-delay.png
 ---
 
 [Am 29. Oktober 2018 gaben IBM](https://newsroom.ibm.com/2018-10-28-IBM-To-Acquire-Red-Hat-Completely-Changing-The-Cloud-Landscape-And-Becoming-Worlds-1-Hybrid-Cloud-Provider) [und Red Hat bekannt](https://www.redhat.com/en/about/press-releases/ibm-acquire-red-hat-completely-changing-cloud-landscape-and-becoming-worlds-1-hybrid-cloud-provider?intcmp=701f2000000RWK2AAO) das IBM sich alle Aktien von Red Hat zum Preis von 190$ (Börsenkurs zur Ankündigung: 116$), also insgesamt 34 Milliarden Dollar, kauft und sich damit Red Hat einverleibt.
