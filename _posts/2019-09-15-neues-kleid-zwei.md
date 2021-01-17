@@ -6,6 +6,7 @@ category: Blog
 tags: info blog update
 author: Der-Eddy
 keyword: nightm2
+preview: nachher.png
 ---
 In 2017 habe ich diesem Blog ein dunkleres Design verpasst, siehe [Neues Kleid]({% post_url 2017-01-01-neues-kleid %}). Damals dachte ich noch das es eine gute Idee wäre einen "Stardust" Hintergrund einzubauen damit es ein coolen Weltraum-theme bekommt. Ganz funktioniert hat das so nicht, dafür habe ich heute diesen ausgetauscht mit ein paar schrägen dunklen Strichen.
 

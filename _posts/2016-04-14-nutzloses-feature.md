@@ -6,6 +6,7 @@ category: Blog
 tags: blog info javascript
 author: Der-Eddy
 keyword: nutzFeature
+preview: feed.png
 ---
 Heute hab ich mal ein unglaublich unnützes Feature in den Blog eingebaut, ich fand die Idee jedoch einfach lustig und irgendwas brauchte ich als Trenner zwischen eigentlichen Blog Artikel und der Box für verwandte Artikel.
 
