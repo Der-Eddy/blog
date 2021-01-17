@@ -6,6 +6,7 @@ category: Umstieg
 tags: windows arch
 author: Der-Eddy
 keyword: byebyemicrosoft
+preview: archlinux-logo-light.svg
 ---
 Wie in meinem anderen Beitrag, zum Umstieg auf Android, bereits angedeutet wollte ich gerne zu Linux wechseln und konnte es niemals machen da ich immer an iTunes an Windows oder macOS gebunden war.
 Angefangen mit freeBSD Servern, übergehend zu Debian und Ubuntu Servern für Minecraft Servern habe ich bereits seit fast 10 Jahren in irgendeiner Form mit Unix zu tun gehabt. Arbeitstechnisch wurde ich, dann zu einem der wenigen in einer ehemaligen Firma, die sich überhaupt mit Linux auskannte und musste mich fortan um das Meiste bezüglich Debian und Ubuntu Servern kümmern. Nach Wechsel der Firma verlief die Leidenschaft zu Linux ein wenig im Sande über die Jahre wieder ein wenig. Trotzdem pflegte ich fast durchgehend einen persönlichen Ubuntu Server für Webserver und andere Spiele Reihen und musste meinen Microsoft Windows Workflow ein wenig anpassen dafür. Irgendwann hab ich gemerkt wie sehr ich Microsoft Windows umstellen musste damit ich überhaupt arbeiten konnte. Außerdem war ich unzufrieden mit der Update-Politik von Windows 10 und habe auch nie verstanden was die Leute so an Windows 7 feiern, Windows Aero war alles andere als Perfekt.
@@ -14,6 +15,8 @@ Zwischenzeitlich hatte ich auch mal zum Versuch Arch Linux auf einem Macbook ins
 
 Die passende Linux Distribution
 ---
+
+{% include image.html url="archlinux-logo-light.svg" description="" %}
 
 Der Trick von Arch Linux ist nämlich, das Arch Linux ohne grafischen Installer ausgeliefert wird und im Gegensatz zu fast allen anderen Linux Distributionen wie zum Beispiel Debian, Ubuntu oder Fedora keine fixen Releases hat, sondern als sogennantes "Rolling Release" fungiert und Updates von Upstream nur mit wenigen Tagen Abstand in die Main Repositories kommen. Das sorgt dazu das eine Arch Linux Installation immer sehr aktuell bleibt und man keine Monate oder Jahre warten muss auf neuere Versionen außerhalb von Sicherheitspatches. Viele Linux Nutzer sagen deswegen das Arch Linux nicht "stabil" ist und Programm Pakete mindestens mehrere Monate verfügbar sein müssen bevor sie erst als stabil und sicher gelten. Ich hatte jedoch in der Vergangenheit eher das Gegenteil erfahren, wenn ich versuchte einige neuere Pakete in z. B. Ubuntu einzupflegen und dadurch sogar die Upgrade-Installation oft schieflief. Letztlich ist das eigene System nur so stabil wie man es auch stabil macht, der Unterbau kann dabei helfen, aber es ist kein Alleinstellungsmerkmal für ein stabiles System.
 
