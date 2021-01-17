@@ -6,6 +6,7 @@ category: RasPi
 tags: raspberry pi linux
 author: Der-Eddy
 keyword: raspi
+preview: raspberrys.jpg
 ---
 
 Nachdem ich meine letzten beiden Raspberry Pis Version 1 und 3 durch Eigenverschulden gebricked hatte, kam ich auf die Idee endlich mal Version 4 des beliebten Einplatinencomputers zu kaufen. Die Vorteile gegenüber dem letzten Model lagen klar auf der Hand:
