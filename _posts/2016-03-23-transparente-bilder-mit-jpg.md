@@ -6,6 +6,7 @@ category: Development
 tags: dev html web
 author: Der-Eddy
 keyword: transJPG
+preview: iPhone.jpg
 choosen: true
 ---
 Heute bin ich über ein interessantes Thema gestolpert als ich auf [Reddit unterwegs war](https://www.reddit.com/r/web_design/comments/4bdgj1/somebody_at_apple_forgot_to_use_a_png/). Die Idee ist so simpel wie genial, JPG Bilder durch SVG Masken transparent machen ohne auf schlechte PNG Kompression ausweichen zu müssen. PNG Bilder haben zwar eine gute Qualität, jedoch zählt im Web eher ein schnellerer Auftritt als minimal schönere Bilder. Von der Idee bis zum eigenen Test hats nicht lange gedauert, zum Test benutze ich ein [Mockup eines iPhone Screenshots welchen ich vorletztes Jahr](https://imgur.com/a/dtvKk) angefertigt habe.
