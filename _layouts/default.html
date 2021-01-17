@@ -8,7 +8,11 @@
     {% include header.html %}
 
     <div class="page-content">
+      {% if page.biggerwrapper %}
+      <div class="bigwrapper">
+      {% else %}
       <div class="wrapper">
+      {% endif %}
         {{ content }}
       </div>
     </div>

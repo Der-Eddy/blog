@@ -148,6 +148,10 @@ a.site-title {
     text-decoration: none;
 }
 
+div.header a {
+    color: $text-color;
+}
+
 
 /**
  * Blockquotes
@@ -210,6 +214,23 @@ pre {
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
+.bigwrapper {
+    max-width: -webkit-calc(#{$content-width} * 2 - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} * 2 - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} * 2 - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} * 2 - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
