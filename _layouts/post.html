@@ -100,7 +100,7 @@ layout: default
 <script>
   $.getJSON( "https://api.github.com/repos/Der-Eddy/blog/commits", function( data ) {
     data.forEach( function(commit){
-      if (commit.commit.message.indexOf("{{ page.keyword }}") > 0){
+      if (commit.commit.message.indexOf("{{ page.keyword }}") > 0 || commit.commit.message.indexOf("{{ page.path | replace:'_posts/',''}}") > 0){
         $(".feed").append('<div class="event"><div class="label">' +
                           '<img src="' + commit.author.avatar_url + '"></div>' +
                           '<div class="content"><div class="summary"><a href="' + commit.author.html_url + '" target="_blank">' + commit.author.login + '</a>' +
