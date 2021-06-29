@@ -40,7 +40,7 @@ Seit ich den F-Droid Store entdeckt habe versuche ich möglichst viele Apps von 
 
 - E-Mail: [FairEmail](https://f-droid.org/en/packages/eu.faircode.email)
 - Browser: [Fennec](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid) (Firefox Fork)
-- Messenger: [Element](https://f-droid.org/en/packages/im.vector.app/) (Matrix), [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/), Signal (wird von CalyxOS bereit gestellt)
+- Messenger: [Element](https://f-droid.org/en/packages/im.vector.app/) (Matrix), [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/), Signal (wird von CalyxOS bereit gestellt) / [Molly](https://github.com/mollyim/mollyim-android)
 - Bilder: [Simple Gallery](https://f-droid.org/en/packages/com.simplemobiletools.gallery.pro)
 - Password Manager: [AuthPass](https://f-droid.org/en/packages/design.codeux.authpass.fdroid/), [KeePassDX](https://f-droid.org/en/packages/com.kunzisoft.keepass.libre/), [Bitwarden](https://f-droid.org/packages/com.x8bit.bitwarden)
 - 2FA OTP: [Aegis Authenticator](https://f-droid.org/en/packages/com.beemdevelopment.aegis/), [andOTP](https://f-droid.org/en/packages/org.shadowice.flocke.andotp), [Bitwarden](https://f-droid.org/packages/com.x8bit.bitwarden)
@@ -61,7 +61,7 @@ Seit ich den F-Droid Store entdeckt habe versuche ich möglichst viele Apps von 
 
 {% include image.html url="fdroid.png" description="Im F-Droid Store kann ich guten Gewissens jegliche App herunterladen ohne mit Werbung, In-App Käufen oder Trackern bombadiert zu werden" %}
 
-Trotz dieser nicht kleinen Liste, gibt es viele Apps trotzdem nicht im F-Droid Store. Komischerweise sind darunter auch Firefox und Signal, als Firefox Ersatz gibt es aber Fennec und CalyxOS liefert Signal als System App aus für SMS. Für alles andere sollte der Aurora Store den Rest abdecken, jedoch geht eine App hier komplett unter: Die Pixel Camera App oder oft GCam genannt
+Trotz dieser nicht kleinen Liste, gibt es viele Apps trotzdem nicht im F-Droid Store. Komischerweise sind darunter auch Firefox und Signal, als Firefox Ersatz gibt es aber Fennec und CalyxOS liefert Signal als System App aus für SMS. Für Signal gibt es auch den Fork [Molly](https://github.com/mollyim/mollyim-android) mit eigenem F-Droid repository. Ansonsten sollte der Aurora Store den Rest abdecken, jedoch geht eine App hier komplett unter: Die Pixel Camera App oder oft GCam genannt
 Eines der großen Verkaufsargumente für das Google Pixel, ist deren Kamera App welche aus dem kleinen Kamerasensor unglaubliche Bilder zaubern kann. Diese findet sich jedoch weder im AOSP noch im Play Store / Aurora Store zum Laden. Meine momentane Lösung ist sich von APKMirror die "GCam - BSG's Google Camera port" App zu laden. Das ist nicht die schönste Möglichkeit an die App zu kommen aber verzichten möchte ich auf die App auch nicht.
 
 Eine andere App wofür ich noch keinen guten Ersatz gefunden ist meine Musik App, genauer genommen [BlackPlayer EX](https://play.google.com/store/apps/details?id=com.kodarkooperativet.blackplayerex&hl=en&gl=us) den ich immerhin per gekaufter Zusatz-App freischalten konnte, anstelle von In-App Käufen.
