@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
-.column p a {
+.column p a, li a, .event a, a.site-title {
     color: darken($brand-color, 5%)!important;
     text-decoration: none;
 
@@ -132,26 +132,6 @@ h1, h2, h3, h4, h5, h6 {
         color: darken($brand-color, 15%)!important;
         text-decoration: none;
     }
-}
-
-.event a {
-    color: darken($brand-color, 5%)!important;
-    text-decoration: none;
-
-    &:visited {
-        color: darken($brand-color, 5%)!important;
-        text-decoration: none;
-    }
-
-    &:hover {
-        color: darken($brand-color, 15%)!important;
-        text-decoration: none;
-    }
-}
-
-a.site-title {
-    color: darken($brand-color, 5%)!important;
-    text-decoration: none;
 }
 
 div.header a {
