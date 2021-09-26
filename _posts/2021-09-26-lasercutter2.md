@@ -21,8 +21,9 @@ Die Einkaufsliste ist dabei relativ kurz ausgefallen:
 - [Batteriehalter 8 x AA](https://www.conrad.de/de/p/takachi-sn38a-batteriehalter-8x-mignon-aa-kabel-l-x-b-x-h-107-9-x-31-x-28-mm-1882352.html) (7,50 €)
 - [8 x AA-Batterien](https://www.conrad.de/de/p/basetech-mignon-aa-batterie-alkali-mangan-2650-mah-1-5-v-24-st-1604976.html) (~1,50 €)
 - [Klettband zum Kleben](https://www.conrad.de/de/p/toolcraft-kl50x100sc-klettband-zum-aufkleben-haft-und-flauschteil-extrastark-l-x-b-100-mm-x-50-mm-schwarz-1-paar-419957.html) (1 €)
-- Sekundenkleber (~1 €)
-- ~130 mm² 3 mm dickes Sperrholz Pappel zum lasern (3~9 €)
+- 4 x [M4 Schrauben](https://www.conrad.de/de/p/toolcraft-128169-sechskantschrauben-m4-20-mm-aussensechskant-din-933-stahl-100-st-128169.html) + [Muttern](https://www.conrad.de/de/p/toolcraft-888719-sechskantmuttern-m4-din-934-stahl-verzinkt-1-st-888719.html) (~0,40 €)
+- [1 Tube Sekundenkleber](https://www.conrad.de/de/p/pattex-mini-trio-ultra-gel-sekundenkleber-psmg3-3-g-1277605.html) (~1 €)
+- [~130 mm² 3 mm dickes Sperrholz Pappel zum lasern](https://www.bauhaus.info/zuschnittplatten/sperrholzplatte-nach-mass/p/24815310) (3~9 €)
 
 Das meiste hatte ich bei meinem letzten Einkauf aus China von AliExpress noch in Fülle da, sodass der endgültige Preis für mich selber noch mal deutlich nach unten ging.
 
