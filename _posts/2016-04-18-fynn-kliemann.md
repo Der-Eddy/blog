@@ -7,6 +7,7 @@ tags: youtube diy
 author: Der-Eddy
 keyword: kliemann
 preview: youtube-thumbnail.jpg
+published: false
 ---
 Heute möchte ich mal anfangen einige Perlen auf YouTube zu zeigen welche wahrscheinlich nicht viele kennen da sie keine Titten im Thumbnail, CAPSLOCK TITEL, schlechteres Drama als RTL und/oder Minecraft Let's Plays machen. Der erste im Bunde wird heute [Fynn Kliemann](https://www.youtube.com/user/xmostimportant/) sein.
 
